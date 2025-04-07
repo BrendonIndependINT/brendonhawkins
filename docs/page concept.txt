@@ -1,0 +1,64 @@
+🧭 Intent of brendonhawkins.com
+This site is your personal hub—a curated, thoughtful expression of your ideas, projects, writing, and philosophy.
+It connects your past (intelligence, analysis, training) with your present and future (systemic reform, civic tooling, ethical AI, and storytelling). It’s not just a portfolio—it’s a map of how you think and what you're building.
+
+It serves:
+- As a public-facing identity
+- A place to anchor your evolving ideas
+- A gateway to your more focused initiatives (IndependINT, The Conscious System, The Custodians)
+- A quiet invitation for like minds to follow, collaborate, or learn from your work
+
+Core Site Structure (Recommended Pages)
+1. Home
+First impression. Sets your tone and offers a calm, compelling snapshot of you.
+
+Includes:
+- Short intro (what you do, what you believe)
+- Featured links or sections (e.g., The Conscious System, The Custodians, current blog)
+- Soft, reflective design
+
+2. About
+Who you are, what you've done, and why you’re doing this.
+
+Includes:
+- Narrative bio (not just CV)
+- Link to downloadable CV or timeline
+- Optional photo, quote, or visual metaphor
+
+3. Writing
+Your creative and philosophical output.
+
+Sections:
+- The Augmented (embedded EPUB + downloads)
+- The Custodians (teaser + updates)
+Optional: future book or article ideas you're developing
+
+4. Projects / Systems
+Living systems and frameworks you’re designing.
+
+Framed not as “products,” but as ongoing work on complex problems
+
+5. IndependINT
+Professional training and consulting arm—nested but distinct.
+
+Includes:
+- Brand intro + purpose
+- Link to YouTube or video training content
+- Training modules (current/future)
+- Speaking and consulting offers (optional)
+
+6. Blog / Dispatches
+Personal reflections, essays, project updates.
+
+7. Media / Talks
+Your public work and intellectual contributions.
+
+Includes:
+- Conference presentations
+- Training videos (embedded)
+- Podcasts, panels, interviews
+- Slide decks or video files (optional downloads)
+
+8. Contact
+Simple form or direct email + link to social profiles
+Optional: soft invitation to collaborate
