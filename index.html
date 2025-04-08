@@ -95,39 +95,41 @@
   </nav>
   <!-- End Navbar -->
 
-  <!-- Header Section (Keep this, we'll customize it later) -->
-  <header class="header-2">
-    <div class="page-header min-vh-85 relative" style="background-image: url('./assets/img/header-background.jpg')"> <!-- Placeholder background -->
-      <span class="mask bg-dark opacity-3"></span>
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-7 text-center mx-auto">
-            <h1 class="text-white font-weight-bolder pt-3 mt-n5">Brendon Hawkins</h1> <!-- Customize Title -->
-            <p class="lead text-white mt-3">Intelligence analyst, system builder, writer, quiet reformer.</p> <!-- Customize Subtitle -->
-          </div>
+  <!-- Header Section - Updated to match other pages -->
+  <!-- Removed <header class="header-2"> wrapper -->
+  <div class="page-header min-vh-75" style="background-image: url('./assets/img/header-background.jpg');"> <!-- Changed min-vh-85 to min-vh-75 -->
+    <span class="mask bg-dark opacity-6"></span> <!-- Changed opacity-3 to opacity-6 -->
+    <div class="container">
+      <!-- Changed row structure and column width -->
+      <div class="row justify-content-center">
+        <div class="col-lg-8 text-center mx-auto">
+          <!-- Removed pt-3, mt-n5, added display-4 -->
+          <h1 class="text-white display-4 font-weight-bolder">Brendon Hawkins</h1>
+          <!-- Removed mt-3, added opacity-8 -->
+          <p class="lead text-white opacity-8">Intelligence analyst, system builder, writer, quiet reformer.</p>
         </div>
       </div>
-      <!-- Optional: Keep or remove the waves SVG -->
-      <div class="position-absolute w-100 z-index-1 bottom-0">
-        <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 40" preserveAspectRatio="none" shape-rendering="auto">
-          <defs>
-            <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
-          </defs>
-          <g class="moving-waves">
-            <use xlink:href="#gentle-wave" x="48" y="-1" fill="rgba(255,255,255,0.40" />
-            <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(255,255,255,0.35)" />
-            <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(255,255,255,0.25)" />
-            <use xlink:href="#gentle-wave" x="48" y="8" fill="rgba(255,255,255,0.20)" />
-            <use xlink:href="#gentle-wave" x="48" y="13" fill="rgba(255,255,255,0.15)" />
-            <use xlink:href="#gentle-wave" x="48" y="16" fill="rgba(255,255,255,0.95" />
-          </g>
-        </svg>
-      </div>
     </div>
-  </header>
+    <!-- Waves SVG remains the same -->
+    <div class="position-absolute w-100 z-index-1 bottom-0">
+      <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 40" preserveAspectRatio="none" shape-rendering="auto">
+        <defs>
+          <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+        </defs>
+        <g class="moving-waves">
+          <use xlink:href="#gentle-wave" x="48" y="-1" fill="rgba(255,255,255,0.40)" /> <!-- Fixed closing parenthesis -->
+          <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(255,255,255,0.35)" />
+          <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(255,255,255,0.25)" />
+          <use xlink:href="#gentle-wave" x="48" y="8" fill="rgba(255,255,255,0.20)" />
+          <use xlink:href="#gentle-wave" x="48" y="13" fill="rgba(255,255,255,0.15)" />
+          <use xlink:href="#gentle-wave" x="48" y="16" fill="rgba(255,255,255,0.95)" /> <!-- Fixed closing parenthesis -->
+        </g>
+      </svg>
+    </div>
+  </div>
   <!-- End Header Section -->
 
-  <!-- Main Content Area -->
+  <!-- Main Content Area starts immediately after header -->
   <main class="main-content">
     <!-- Section 1: Introduction Text -->
     <section class="py-5"> <!-- py-5 adds padding top and bottom -->
@@ -287,7 +289,7 @@
               <!-- Card 5: Blog -->
               <div class="col-lg-4 col-md-6 mb-4"> <!-- This is now 1/3 of col-lg-10 on large screens -->
                  <div class="card shadow-lg move-on-hover">
-                   <img class="card-img-top" src="./assets/img/square/blog.JPG" alt="Blog Section Image">
+                   <img class="card-img-top" src="./assets/img/square/Birds-1.jpg" alt="Blog Section Image">
                    <div class="position-relative overflow-hidden" style="height:50px;margin-top:-50px;">
                      <div class="position-absolute w-100 top-0 z-index-1">
                        <svg class="waves waves-sm" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 40" preserveAspectRatio="none" shape-rendering="auto">
