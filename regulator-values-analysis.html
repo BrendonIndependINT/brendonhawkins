@@ -1,0 +1,944 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="apple-touch-icon" sizes="76x76" href="./assets/img/apple-icon.png">
+  <link rel="icon" type="image/png" href="./assets/img/favicon.png">
+  <title>
+    Regulator Values Analysis - Brendon Hawkins
+  </title>
+  <!--     Fonts and icons     -->
+  <link href="https://fonts.googleapis.com/css?family=Inter:300,400,500,600,700,800" rel="stylesheet" />
+  <!-- Nucleo Icons -->
+  <link href="./assets/css/nucleo-icons.css" rel="stylesheet" />
+  <link href="./assets/css/nucleo-svg.css" rel="stylesheet" />
+  <!-- Font Awesome Icons -->
+  <script src="https://kit.fontawesome.com/42d5adcbca.js" crossorigin="anonymous"></script>
+  <!-- CSS Files -->
+  <link id="pagestyle" href="./assets/css/soft-design-system-pro.min.css?v=1.2.0" rel="stylesheet" />
+  <!-- Custom CSS -->
+  <link href="./assets/css/custom.css" rel="stylesheet" />
+</head>
+
+<body class="project-page">
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-white shadow-sm">
+    <div class="container">
+      <a class="navbar-brand font-weight-bolder ms-lg-0 ms-3" href="index.html">
+        Brendon Hawkins
+      </a>
+      <button class="navbar-toggler shadow-none ms-2" type="button" data-bs-toggle="collapse" data-bs-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon mt-2">
+          <span class="navbar-toggler-bar bar1"></span>
+          <span class="navbar-toggler-bar bar2"></span>
+          <span class="navbar-toggler-bar bar3"></span>
+        </span>
+      </button>
+      <div class="collapse navbar-collapse" id="navigation">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link text-dark font-weight-bold d-flex align-items-center me-2" href="about.html">
+              About
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark font-weight-bold d-flex align-items-center me-2" href="independint.html">
+              IndependINT
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark font-weight-bold d-flex align-items-center me-2 active" aria-current="page" href="projects.html">
+              Projects
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark font-weight-bold d-flex align-items-center me-2" href="writing.html">
+              Writing
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark font-weight-bold d-flex align-items-center me-2" href="blog.html">
+              Blog
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark font-weight-bold d-flex align-items-center me-2" href="media.html">
+              Media
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- End Navbar -->
+
+  <!-- Main Content Area -->
+  <main class="main-content">
+
+    <!-- Page Header Section -->
+    <div class="page-header min-vh-75" style="background-image: url('./assets/img/systems_of_value_blog/regulator.jpg');">
+      <span class="mask bg-gradient-dark opacity-6"></span>
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-8 text-center mx-auto">
+            <h1 class="text-white display-4 font-weight-bolder">Regulator Values Analysis</h1>
+            <p class="lead text-white opacity-8">Systematic extraction and analysis of institutional values from Australian regulatory guidance and enforcement reports.</p>
+          </div>
+        </div>
+      </div>
+      <!-- Moving Waves SVG -->
+      <div class="position-absolute w-100 z-index-1 bottom-0">
+        <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 40" preserveAspectRatio="none" shape-rendering="auto">
+          <defs>
+            <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+          </defs>
+          <g class="moving-waves">
+            <use xlink:href="#gentle-wave" x="48" y="-1" fill="rgba(255,255,255,0.40)" />
+            <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(255,255,255,0.35)" />
+            <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(255,255,255,0.25)" />
+            <use xlink:href="#gentle-wave" x="48" y="8" fill="rgba(255,255,255,0.20)" />
+            <use xlink:href="#gentle-wave" x="48" y="13" fill="rgba(255,255,255,0.15)" />
+            <use xlink:href="#gentle-wave" x="48" y="16" fill="rgba(255,255,255,0.95)" />
+          </g>
+        </svg>
+      </div>
+    </div>
+    <!-- End Page Header Section -->
+
+    <!-- Project Overview Section -->
+    <section class="py-5">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-10">
+            
+            <!-- Project Description -->
+            <div class="row mb-5">
+              <div class="col-lg-8 mx-auto">
+                <h2 class="text-center mb-4">A Values Alignment Intelligence Research Project</h2>
+                <p class="lead text-center mb-4">
+                  The Regulator Values Analysis project demonstrates how AI can systematically extract and analyse institutional values from regulatory guidance documents and enforcement reports. This research applies Values Alignment Intelligence (VAI) methodology to reveal the moral architecture of Australian regulatory frameworks and identify patterns of values misalignment in organisational behavior.
+                </p>
+              </div>
+            </div>
+
+            <!-- Project Outline -->
+            <div class="row mb-5">
+              <div class="col-lg-12">
+                <h3 class="mb-4">Project Outline</h3>
+                <p>This project was a follow-up to the <a href="https://brendonhawkins.com/hansard-political-values-tool.html">Hansard Political Values Analysis</a> tool. I wanted to re-use the methodology on a more operational arm of government. The objective was to take the guidelines and determinations of a single regulatory body and extract the values that give it purpose and goals.</p>
+                <p>Regulators are well suited to this type of analysis, Unlike legislators, whose value statements are often rhetorical, regulators are expected to interpret community expectations and sanction systems when they breach standards. Their enforcement reports are a public artefact which explicitly reference the values of the community and explain where the breach occurred. It means they are easy for LLMs to process for the extraction of values.</p>
+                <p>For this project I chose The Australian Communications and Media Authority (ACMA) focussing on their function regulating broadcast TV and radio. I chose ACMA and their broadcast media remit because public complaints made about TV and radio are often incidents of moral outrage rather than technical breaches of regulatory responsibility.</p>
+                <p>The dataset consisted of 88 adverse findings reports and infringement notices and 16 guidelines documents which outlined their expectations. Each document was processed through an LLM pipeline that extracted the normative values statements, obligations, and information about any breaches. A second consolidation pass produced a taxonomy of 16 values categories, each with a definition and key indicators, as well as a list of common violations. You can read the output in the LLM generated content below.</p>
+                <p>This work is an early demonstration of Values Alignment Intelligence (VIA). VIA is a methodology for identifying institutional values structures from textual artefacts and comparing them to organisational behaviour. It provides an enterprise with the capability to interpret its policies and actions to interpret whether they are meeting or violating community expectations.</p>
+                <p>It's a missing element in enterprise risk management. The reason values alignment intelligence has so much potential is that it allows institutions to sense violations before they become breaches. Values interpreted at the meta systemic layer are translated through legislation to produce regulations and laws. Laws are a floor in community expectations, and lawyers are normally able keep organisations operating above that floor. Values are fuzzier, and organisations require more nuanced techniques to maintain social license.</p>
+                <p>The methodology has proven reliable for extracting value frameworks from political and regulatory sources. The next step is turning the lens inwards, applying the same analytic techniques to process and organisational behaviour, to give enterprises the tools to anticipate breaches of community expectations.</p>
+              </div>
+            </div>
+
+            <!-- Key Features -->
+            <div class="row mb-5">
+              <div class="col-lg-12">
+                <h3 class="mb-4">Key Capabilities</h3>
+                <div class="row">
+                  <div class="col-md-6 mb-4">
+                    <div class="card h-100">
+                      <div class="card-body">
+                        <h5 class="card-title"><i class="fas fa-search text-primary me-2"></i>Systematic Value Extraction</h5>
+                        <p class="card-text">Uses AI to extract normative values statements from regulatory guidance documents, identifying what organizations should do and the principles that guide regulatory expectations.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6 mb-4">
+                    <div class="card h-100">
+                      <div class="card-body">
+                        <h5 class="card-title"><i class="fas fa-sitemap text-primary me-2"></i>16-Value Taxonomy</h5>
+                        <p class="card-text">Developed a comprehensive taxonomy of 16 core Australian regulatory values through multi-pass consolidation of 76 unique value categories extracted from ACMA guidance documents.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- The 16 Regulatory Values -->
+            <div class="row mb-5">
+              <div class="col-lg-12">
+                <h3 class="mb-4">The 16 ACMA Regulatory Values</h3>
+                <p class="lead mb-4">These are the 16 core values categories identified from ACMA regulatory guidance documents, capturing the moral architecture of Australian broadcasting regulation.</p>
+                <p class="mb-4">These values categories were established through systematic extraction of normative value statements from regulatory guidance by LLMs, followed by multi-pass consolidation. The methodology demonstrates that AI can systematically identify the underlying principles that guide regulatory expectations.</p>
+                <p class="mb-4"><em>Click on any value below to explore its comprehensive definition, key indicators, common violations, and evidence from regulatory documents.</em></p>
+                
+                <!-- Value: Accessibility & Inclusivity -->
+                <div class="card mb-3">
+                    <div class="card-header">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link text-start w-100 p-0" type="button" data-bs-toggle="collapse" data-bs-target="#value1" aria-expanded="false" aria-controls="value1">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="d-flex align-items-center flex-grow-1">
+                            <i class="fas fa-universal-access text-primary me-3 fs-4"></i>
+                            <div class="flex-grow-1">
+                                <div class="d-flex justify-content-between align-items-center">
+                                <span class="fs-5 fw-bold text-warning">1. Accessibility & Inclusivity</span>
+                                </div>
+                            </div>
+                            </div>
+                            <i class="fas fa-chevron-down fs-5 ms-3"></i>
+                        </div>
+                        </button>
+                    </h5>
+                    </div>
+                    <div id="value1" class="collapse">
+                    <div class="card-body">
+                        <p><strong>Definition:</strong> Ensures the Australian public has broad and equitable access to communication services, content, and events of national importance, regardless of location or technology. This value specifically mandates inclusivity by requiring that content is made usable by people with disabilities, primarily through features like captioning for deaf and hard-of-hearing audiences.</p>
+                        <p><strong>Key Indicators:</strong></p>
+                        <ul>
+                            <li>Implementation of frameworks ensuring free-to-air services are prominent and easily discoverable on modern devices (e.g., smart TVs).</li>
+                            <li>Compliance with mandated captioning rules and targets for free-to-air, national, and subscription television services.</li>
+                            <li>Adherence to rules governing broadcast rights for major events to ensure they remain available to the general public.</li>
+                            <li>Prioritizing the captioning of vital public information, such as news, current affairs, and emergency warnings.</li>
+                            <li>Widespread availability of broadcast services across the population, supported by initiatives like the digital radio rollout.</li>
+                        </ul>
+                        <p><strong>Common Violations:</strong></p>
+                        <ul>
+                            <li>Failing to meet mandated captioning quotas or providing captions that are inaccurate, un-synchronized, or illegible.</li>
+                            <li>Broadcasting a designated major event exclusively on a subscription service in breach of anti-siphoning rules.</li>
+                            <li>Neglecting to provide captioning during an emergency broadcast, denying critical safety information to a segment of the audience.</li>
+                            <li>Designing a user interface on a media device that deliberately hides or makes it difficult for consumers to find free-to-air services.</li>
+                        </ul>
+                    </div>
+                    </div>
+                </div>
+                
+                <!-- Value: Accountability & Transparency -->
+                <div class="card mb-3">
+                    <div class="card-header">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link text-start w-100 p-0" type="button" data-bs-toggle="collapse" data-bs-target="#value2" aria-expanded="false" aria-controls="value2">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="d-flex align-items-center flex-grow-1">
+                            <i class="fas fa-eye text-primary me-3 fs-4"></i>
+                            <div class="flex-grow-1">
+                                <div class="d-flex justify-content-between align-items-center">
+                                <span class="fs-5 fw-bold text-warning">2. Accountability & Transparency</span>
+                                </div>
+                            </div>
+                            </div>
+                            <i class="fas fa-chevron-down fs-5 ms-3"></i>
+                        </div>
+                        </button>
+                    </h5>
+                    </div>
+                    <div id="value2" class="collapse">
+                    <div class="card-body">
+                        <p><strong>Definition:</strong> This value establishes that regulated entities are answerable for their obligations and must operate with openness. It encompasses the entire regulatory cycle, from setting clear standards for content and advertising to actively monitoring compliance, making relevant data and commitments publicly accessible, and enforcing rules through investigation and action against breaches. The goal is to ensure entities are held responsible for their actions, both to the regulator and the public they serve.</p>
+                        <p><strong>Key Indicators:</strong></p>
+                        <ul>
+                            <li>Existence of clear, enforceable codes and standards for content and advertising.</li>
+                            <li>Public access to information through registers, compliance reports, and aggregated industry data.</li>
+                            <li>A formal process for investigating public complaints and monitoring compliance with regulatory obligations.</li>
+                            <li>Application of enforcement actions, such as fines or license conditions, in response to identified breaches.</li>
+                            <li>Requirement for entities to publicly declare and report on specific commitments, such as local content quotas.</li>
+                        </ul>
+                        <p><strong>Common Violations:</strong></p>
+                        <ul>
+                            <li>Broadcasting content or advertising that breaches established industry codes or standards.</li>
+                            <li>Failing to submit required data, lodging inaccurate reports, or not maintaining public-facing information.</li>
+                            <li>Disregarding specific license conditions or failing to meet publicly stated commitments (e.g., local content).</li>
+                            <li>Obstructing or failing to cooperate with a regulatory investigation into a potential breach.</li>
+                            <li>Ignoring or failing to implement remedial actions or directions issued by the regulator.</li>
+                        </ul>
+                    </div>
+                    </div>
+                </div>
+                
+                <!-- Value: Audience & Community Protection -->
+                <div class="card mb-3">
+                    <div class="card-header">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link text-start w-100 p-0" type="button" data-bs-toggle="collapse" data-bs-target="#value3" aria-expanded="false" aria-controls="value3">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="d-flex align-items-center flex-grow-1">
+                            <i class="fas fa-shield-alt text-primary me-3 fs-4"></i>
+                            <div class="flex-grow-1">
+                                <div class="d-flex justify-content-between align-items-center">
+                                <span class="fs-5 fw-bold text-warning">3. Audience & Community Protection</span>
+                                </div>
+                            </div>
+                            </div>
+                            <i class="fas fa-chevron-down fs-5 ms-3"></i>
+                        </div>
+                        </button>
+                    </h5>
+                    </div>
+                    <div id="value3" class="collapse">
+                    <div class="card-body">
+                        <p><strong>Definition:</strong> This value represents the regulator's duty of care to safeguard the public, and specifically vulnerable groups like children, from harmful, dangerous, or inappropriate content. It encompasses rules designed to prevent the dissemination of material related to terrorism and public health risks, while also ensuring the community has access to critical safety information during emergencies.</p>
+                        <p><strong>Key Indicators:</strong></p>
+                        <ul>
+                            <li>Implementation of clear standards prohibiting the broadcast of content that incites, supports, or facilitates terrorism.</li>
+                            <li>Establishment and enforcement of specific rules for children's programming, including content classifications, advertising standards, and viewing-time restrictions.</li>
+                            <li>Mandatory broadcasting of emergency warnings and critical public safety information in formats accessible to the entire community (e.g., text, speech, captions, Auslan interpretation).</li>
+                            <li>Adherence to regulations designed to shield vulnerable audiences from exploitative or harmful material.</li>
+                        </ul>
+                        <p><strong>Common Violations:</strong></p>
+                        <ul>
+                            <li>Broadcasting content that promotes, incites, or provides instruction on terrorist acts.</li>
+                            <li>Failing to adhere to children's content rules, such as airing inappropriate material during protected viewing times or including exploitative advertising.</li>
+                            <li>Neglecting to broadcast mandatory emergency warnings or failing to provide them in accessible formats.</li>
+                            <li>Distributing material that poses a clear and present danger to public health or safety without appropriate warnings or context.</li>
+                        </ul>
+                    </div>
+                    </div>
+                </div>
+                
+                <!-- Value: Audience Experience & Content Quality -->
+                <div class="card mb-3">
+                    <div class="card-header">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link text-start w-100 p-0" type="button" data-bs-toggle="collapse" data-bs-target="#value4" aria-expanded="false" aria-controls="value4">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="d-flex align-items-center flex-grow-1">
+                            <i class="fas fa-star text-primary me-3 fs-4"></i>
+                            <div class="flex-grow-1">
+                                <div class="d-flex justify-content-between align-items-center">
+                                <span class="fs-5 fw-bold text-warning">4. Audience Experience & Content Quality</span>
+                                </div>
+                            </div>
+                            </div>
+                            <i class="fas fa-chevron-down fs-5 ms-3"></i>
+                        </div>
+                        </button>
+                    </h5>
+                    </div>
+                    <div id="value4" class="collapse">
+                    <div class="card-body">
+                        <p><strong>Definition:</strong> This value pertains to the functional quality, consistency, and usability of broadcast content, safeguarding the audience's ability to access and enjoy it. It governs the technical and structural standards for how content is delivered, including the effectiveness of accessibility features like captions and the management of commercial interruptions to ensure a reasonable viewing or listening experience.</p>
+                        <p><strong>Key Indicators:</strong></p>
+                        <ul>
+                            <li>Adherence to a mandated Captioning Quality Standard, ensuring captions are accurate, legible, and properly timed.</li>
+                            <li>Consistent application of captioning across all required broadcasts, including repeats and simultaneous transmissions.</li>
+                            <li>Compliance with hourly limits on advertising time to maintain a reasonable balance between commercial and program content.</li>
+                        </ul>
+                        <p><strong>Common Violations:</strong></p>
+                        <ul>
+                            <li>Broadcasting captions that fail to meet the quality standard (e.g., are out of sync, contain significant errors, or are difficult to read).</li>
+                            <li>Failing to provide captions for a program repeat or a simultaneous broadcast when the original or parallel broadcast was captioned.</li>
+                            <li>Exceeding the permitted hourly limits for advertising content during a broadcast.</li>
+                        </ul>
+                    </div>
+                    </div>
+                </div>
+                
+                <!-- Value: Autonomy for National Broadcasters -->
+                <div class="card mb-3">
+                    <div class="card-header">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link text-start w-100 p-0" type="button" data-bs-toggle="collapse" data-bs-target="#value5" aria-expanded="false" aria-controls="value5">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="d-flex align-items-center flex-grow-1">
+                            <i class="fas fa-university text-primary me-3 fs-4"></i>
+                            <div class="flex-grow-1">
+                                <div class="d-flex justify-content-between align-items-center">
+                                <span class="fs-5 fw-bold text-warning">5. Autonomy for National Broadcasters</span>
+                                </div>
+                            </div>
+                            </div>
+                            <i class="fas fa-chevron-down fs-5 ms-3"></i>
+                        </div>
+                        </button>
+                    </h5>
+                    </div>
+                    <div id="value5" class="collapse">
+                    <div class="card-body">
+                        <p><strong>Definition:</strong> This value recognizes the unique statutory independence granted to Australia's national broadcasters (ABC and SBS). It affirms their right to develop, implement, and maintain their own codes of practice without requiring formal approval or registration by the ACMA. This structural separation ensures their editorial and operational independence from direct regulatory oversight concerning their codes.</p>
+                        <p><strong>Key Indicators:</strong></p>
+                        <ul>
+                            <li>The Australian Broadcasting Corporation (ABC) and the Special Broadcasting Service (SBS) each develop and publish their own distinct codes of practice.</li>
+                            <li>The codes of practice for national broadcasters are not included on the ACMA's register of broadcasting codes, unlike those for commercial or community broadcasters.</li>
+                            <li>Complaints handling processes for national broadcasters are managed internally according to their own codes, rather than through the ACMA's primary investigation process for registered codes.</li>
+                        </ul>
+                        <p><strong>Common Violations:</strong></p>
+                        <ul>
+                            <li>An attempt by the regulator (ACMA) to require a national broadcaster to submit its code of practice for registration or approval.</li>
+                            <li>Legislative or policy changes that remove the national broadcasters' exemption from the standard code registration framework applied to other sectors.</li>
+                            <li>The regulator asserting authority to formally approve or reject the content of a national broadcaster's code of practice.</li>
+                        </ul>
+                    </div>
+                    </div>
+                </div>
+                
+                <!-- Value: Community Engagement & Standards -->
+                <div class="card mb-3">
+                    <div class="card-header">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link text-start w-100 p-0" type="button" data-bs-toggle="collapse" data-bs-target="#value6" aria-expanded="false" aria-controls="value6">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="d-flex align-items-center flex-grow-1">
+                            <i class="fas fa-users text-primary me-3 fs-4"></i>
+                            <div class="flex-grow-1">
+                                <div class="d-flex justify-content-between align-items-center">
+                                <span class="fs-5 fw-bold text-warning">6. Community Engagement & Standards</span>
+                                </div>
+                            </div>
+                            </div>
+                            <i class="fas fa-chevron-down fs-5 ms-3"></i>
+                        </div>
+                        </button>
+                    </h5>
+                    </div>
+                    <div id="value6" class="collapse">
+                    <div class="card-body">
+                        <p><strong>Definition:</strong> This value establishes a broadcaster's fundamental obligation to serve, reflect, and be accountable to its specific geographic or interest-based community. It requires the provision of locally relevant content and essential information, adherence to prevailing community standards, and the active involvement of community members in the station's operations, governance, and programming.</p>
+                        <p><strong>Key Indicators:</strong></p>
+                        <ul>
+                            <li>Broadcasting content of significant local relevance, including local news, current affairs, and information about community events.</li>
+                            <li>Providing essential public service information, such as emergency warnings, weather updates, and community announcements.</li>
+                            <li>Maintaining clear and accessible mechanisms for community participation in operations, programming, and governance (e.g., AGMs, feedback channels, volunteer programs).</li>
+                            <li>Programming consistently aligns with the community's norms and values, as outlined in relevant Codes of Practice.</li>
+                            <li>Maintaining a tangible local presence through staffing, studios, and a focus on issues of importance to the license area.</li>
+                        </ul>
+                        <p><strong>Common Violations:</strong></p>
+                        <ul>
+                            <li>Failure to meet mandated local content quotas, replacing local material with generic networked programming.</li>
+                            <li>Broadcasting material that breaches established community standards of decency, fairness, or taste.</li>
+                            <li>Operating as a 'ghost station' with no meaningful local staff, physical presence, or connection to the community.</li>
+                            <li>Failing to provide accessible pathways for community members to participate in or provide feedback on the service.</li>
+                            <li>Neglecting to broadcast timely and critical local information, particularly during emergencies.</li>
+                        </ul>
+                    </div>
+                    </div>
+                </div>
+                
+                <!-- Value: Continuity of Service -->
+                <div class="card mb-3">
+                    <div class="card-header">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link text-start w-100 p-0" type="button" data-bs-toggle="collapse" data-bs-target="#value7" aria-expanded="false" aria-controls="value7">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="d-flex align-items-center flex-grow-1">
+                            <i class="fas fa-link text-primary me-3 fs-4"></i>
+                            <div class="flex-grow-1">
+                                <div class="d-flex justify-content-between align-items-center">
+                                <span class="fs-5 fw-bold text-warning">7. Continuity of Service</span>
+                                </div>
+                            </div>
+                            </div>
+                            <i class="fas fa-chevron-down fs-5 ms-3"></i>
+                        </div>
+                        </button>
+                    </h5>
+                    </div>
+                    <div id="value7" class="collapse">
+                    <div class="card-body">
+                        <p><strong>Definition:</strong> Continuity of Service is the regulatory principle ensuring that a change in ownership or control of a media licensee does not cause an immediate degradation of local services for the community. Following a corporate 'trigger event' like an acquisition, the new entity is required to maintain the pre-existing levels of local presence and meet minimum service standards for a mandated period. This protects consumer access to local content and information during transitional phases.</p>
+                        <p><strong>Key Indicators:</strong></p>
+                        <ul>
+                            <li>Maintaining the existing level of local presence (e.g., staff, studios) for a mandated period (e.g., 24 months) after a change in corporate control.</li>
+                            <li>Continued compliance with minimum local service and content standards, such as local news bulletins, following a trigger event.</li>
+                            <li>Licensee demonstrates to the regulator that service levels have been preserved post-transition.</li>
+                        </ul>
+                        <p><strong>Common Violations:</strong></p>
+                        <ul>
+                            <li>Reducing or closing local facilities, such as studios or offices, within the protected period following a trigger event.</li>
+                            <li>Decreasing the amount or quality of mandated local content, such as news or community service announcements, after a change in ownership.</li>
+                            <li>Failing to maintain the required number of local staff or journalists post-acquisition.</li>
+                        </ul>
+                    </div>
+                    </div>
+                </div>
+                
+                <!-- Value: Democratic Process Integrity -->
+                <div class="card mb-3">
+                    <div class="card-header">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link text-start w-100 p-0" type="button" data-bs-toggle="collapse" data-bs-target="#value8" aria-expanded="false" aria-controls="value8">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="d-flex align-items-center flex-grow-1">
+                            <i class="fas fa-vote-yea text-primary me-3 fs-4"></i>
+                            <div class="flex-grow-1">
+                                <div class="d-flex justify-content-between align-items-center">
+                                <span class="fs-5 fw-bold text-warning">8. Democratic Process Integrity</span>
+                                </div>
+                            </div>
+                            </div>
+                            <i class="fas fa-chevron-down fs-5 ms-3"></i>
+                        </div>
+                        </button>
+                    </h5>
+                    </div>
+                    <div id="value8" class="collapse">
+                    <div class="card-body">
+                        <p><strong>Definition:</strong> Democratic Process Integrity involves upholding the fairness and integrity of the electoral process by regulating political advertising on broadcasting services. It is primarily achieved by enforcing mandatory 'blackout' periods, which prohibit the broadcast of election-related advertising immediately before polling day. The core aim is to prevent last-minute advertising from unduly influencing voters and to ensure a level playing field for all participants.</p>
+                        <p><strong>Key Indicators:</strong></p>
+                        <ul>
+                            <li>Adherence to mandated 'blackout' periods for broadcasting election and political advertising before polling day.</li>
+                            <li>Implementation of clear internal policies and procedures to prevent the broadcast of prohibited political matter during the blackout period.</li>
+                            <li>Correct identification and categorization of what constitutes an 'election advertisement' or 'political matter' subject to the blackout rules.</li>
+                        </ul>
+                        <p><strong>Common Violations:</strong></p>
+                        <ul>
+                            <li>Broadcasting any election advertisement or political matter during the mandated blackout period, which typically runs from the end of the Wednesday before polling day until the close of polls.</li>
+                            <li>Failing to correctly identify material as an 'election advertisement' and broadcasting it during the prohibited period.</li>
+                            <li>Inadvertent broadcast of prohibited content due to scheduling errors or system failures.</li>
+                        </ul>
+                    </div>
+                    </div>
+                </div>
+                
+                <!-- Value: Industry Co-regulation & Participation -->
+                <div class="card mb-3">
+                    <div class="card-header">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link text-start w-100 p-0" type="button" data-bs-toggle="collapse" data-bs-target="#value9" aria-expanded="false" aria-controls="value9">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="d-flex align-items-center flex-grow-1">
+                            <i class="fas fa-handshake text-primary me-3 fs-4"></i>
+                            <div class="flex-grow-1">
+                                <div class="d-flex justify-content-between align-items-center">
+                                <span class="fs-5 fw-bold text-warning">9. Industry Co-regulation & Participation</span>
+                                </div>
+                            </div>
+                            </div>
+                            <i class="fas fa-chevron-down fs-5 ms-3"></i>
+                        </div>
+                        </button>
+                    </h5>
+                    </div>
+                    <div id="value9" class="collapse">
+                    <div class="card-body">
+                        <p><strong>Definition:</strong> A collaborative regulatory framework where industry sectors hold the primary responsibility for developing, implementing, and reviewing their own codes of practice. These industry-led standards must be endorsed by a majority of providers within a given sector and are subject to the regulator's oversight, consultation, and final approval for registration. This model leverages industry expertise to create practical standards that align with community expectations.</p>
+                        <p><strong>Key Indicators:</strong></p>
+                        <ul>
+                            <li>Industry bodies actively develop and submit codes of practice to the regulator for registration.</li>
+                            <li>Proposed codes are developed in consultation with the regulator (ACMA) and other stakeholders.</li>
+                            <li>Submissions for code registration include evidence of endorsement from a majority of providers in that industry sector.</li>
+                            <li>Registered codes are periodically reviewed and updated by the industry to remain current.</li>
+                        </ul>
+                        <p><strong>Common Violations:</strong></p>
+                        <ul>
+                            <li>An industry group fails to develop or review a required code of practice.</li>
+                            <li>A proposed code is submitted for registration without the required endorsement from a majority of sector providers.</li>
+                            <li>Industry fails to consult with the regulator during the code development process, resulting in a code that is inadequate or does not meet regulatory requirements.</li>
+                            <li>A significant portion of an industry sector fails to comply with its own registered code of practice.</li>
+                        </ul>
+                    </div>
+                    </div>
+                </div>
+                
+                <!-- Value: Media Market Diversity & Control -->
+                <div class="card mb-3">
+                    <div class="card-header">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link text-start w-100 p-0" type="button" data-bs-toggle="collapse" data-bs-target="#value10" aria-expanded="false" aria-controls="value10">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="d-flex align-items-center flex-grow-1">
+                            <i class="fas fa-balance-scale text-primary me-3 fs-4"></i>
+                            <div class="flex-grow-1">
+                                <div class="d-flex justify-content-between align-items-center">
+                                <span class="fs-5 fw-bold text-warning">10. Media Market Diversity & Control</span>
+                                </div>
+                            </div>
+                            </div>
+                            <i class="fas fa-chevron-down fs-5 ms-3"></i>
+                        </div>
+                        </button>
+                    </h5>
+                    </div>
+                    <div id="value10" class="collapse">
+                    <div class="card-body">
+                        <p><strong>Definition:</strong> This value ensures a diverse and competitive media landscape by regulating the ownership and control of media assets, particularly television and radio broadcasters. Its primary goal is to prevent the excessive concentration of market power, thereby safeguarding a plurality of voices and sources of information available to the public.</p>
+                        <p><strong>Key Indicators:</strong></p>
+                        <ul>
+                            <li>Maintenance of public registers detailing the ownership and control of broadcasting licenses.</li>
+                            <li>Application of rules that limit the number of media assets an entity can control within a single license area.</li>
+                            <li>Requirement for broadcasters to notify the regulator of 'trigger events,' such as a change in company control.</li>
+                            <li>Active investigation into and enforcement against potential breaches of ownership and control limits.</li>
+                        </ul>
+                        <p><strong>Common Violations:</strong></p>
+                        <ul>
+                            <li>Failing to notify the regulator after a change in control of a broadcasting license has occurred.</li>
+                            <li>Exceeding the statutory limits on the number of media licenses that can be controlled by a single entity in a specific market.</li>
+                            <li>Providing inaccurate or incomplete information regarding the ownership or control structures of a media entity.</li>
+                            <li>Entering into agreements that give an entity de facto control over a media asset in breach of the rules, without a formal change in ownership.</li>
+                        </ul>
+                    </div>
+                    </div>
+                </div>
+                
+                <!-- Value: Non-Commercialism -->
+                <div class="card mb-3">
+                    <div class="card-header">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link text-start w-100 p-0" type="button" data-bs-toggle="collapse" data-bs-target="#value11" aria-expanded="false" aria-controls="value11">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="d-flex align-items-center flex-grow-1">
+                            <i class="fas fa-ban text-primary me-3 fs-4"></i>
+                            <div class="flex-grow-1">
+                                <div class="d-flex justify-content-between align-items-center">
+                                <span class="fs-5 fw-bold text-warning">11. Non-Commercialism</span>
+                                </div>
+                            </div>
+                            </div>
+                            <i class="fas fa-chevron-down fs-5 ms-3"></i>
+                        </div>
+                        </button>
+                    </h5>
+                    </div>
+                    <div id="value11" class="collapse">
+                    <div class="card-body">
+                        <p><strong>Definition:</strong> Non-Commercialism is the core principle that community broadcasting operates as a not-for-profit endeavor, fundamentally distinct from commercial broadcasting. As a condition of their licence, community broadcasters are strictly prohibited from airing advertisements or operating for the financial profit of individuals. This ensures their primary focus remains on serving community interests rather than on commercial gain.</p>
+                        <p><strong>Key Indicators:</strong></p>
+                        <ul>
+                            <li>The licensee is a not-for-profit organization and operates the service for community purposes.</li>
+                            <li>The service does not broadcast any advertisements.</li>
+                            <li>Any on-air acknowledgements of financial support are limited to permissible sponsorship announcements, which identify the sponsor but do not promote their goods or services.</li>
+                            <li>Financial surpluses are reinvested into the operation and development of the service, not distributed to members or owners.</li>
+                        </ul>
+                        <p><strong>Common Violations:</strong></p>
+                        <ul>
+                            <li>Broadcasting material that promotes a third party's goods or services in exchange for payment.</li>
+                            <li>Airing sponsorship announcements that contain prohibited content, such as calls to action, pricing details, or qualitative claims (e.g., 'the best deals').</li>
+                            <li>Structuring the organization or its operations to deliver a profit for the financial benefit of the individuals who own or control the licence.</li>
+                        </ul>
+                    </div>
+                    </div>
+                </div>
+                
+                <!-- Value: Promotion of National & Local Identity -->
+                <div class="card mb-3">
+                    <div class="card-header">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link text-start w-100 p-0" type="button" data-bs-toggle="collapse" data-bs-target="#value12" aria-expanded="false" aria-controls="value12">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="d-flex align-items-center flex-grow-1">
+                            <i class="fas fa-flag text-primary me-3 fs-4"></i>
+                            <div class="flex-grow-1">
+                                <div class="d-flex justify-content-between align-items-center">
+                                <span class="fs-5 fw-bold text-warning">12. Promotion of National & Local Identity</span>
+                                </div>
+                            </div>
+                            </div>
+                            <i class="fas fa-chevron-down fs-5 ms-3"></i>
+                        </div>
+                        </button>
+                    </h5>
+                    </div>
+                    <div id="value12" class="collapse">
+                    <div class="card-body">
+                        <p><strong>Definition:</strong> This value represents the regulatory commitment to fostering a distinct Australian cultural identity by ensuring audiences have access to locally created and relevant stories. It is achieved through measures that mandate, incentivize, and monitor the creation, broadcast, and investment in Australian content, including programming, news, and advertising, for both national and local communities.</p>
+                        <p><strong>Key Indicators:</strong></p>
+                        <ul>
+                            <li>Adherence to broadcast quotas for Australian content on television and radio.</li>
+                            <li>Meeting minimum expenditure and investment requirements for local programming.</li>
+                            <li>Implementation of weighted incentive systems that prioritize the broadcast of local news and community-relevant material, especially in regional areas.</li>
+                            <li>Compliance with rules mandating the use of locally-produced advertisements.</li>
+                            <li>Regular and accurate reporting on Australian content levels and investment to the regulator.</li>
+                        </ul>
+                        <p><strong>Common Violations:</strong></p>
+                        <ul>
+                            <li>Failing to meet mandated quotas for Australian content within a specified timeframe.</li>
+                            <li>Broadcasting an insufficient amount of local news or community-focused content to meet required point thresholds in regional markets.</li>
+                            <li>Not meeting the minimum required expenditure on the production of Australian programming.</li>
+                            <li>Airing advertisements that do not comply with local production requirements.</li>
+                            <li>Inaccurate or incomplete reporting of data related to Australian content, expenditure, or investment.</li>
+                        </ul>
+                    </div>
+                    </div>
+                </div>
+                
+                <!-- Value: Regulatory Adaptability & Proportionality -->
+                <div class="card mb-3">
+                    <div class="card-header">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link text-start w-100 p-0" type="button" data-bs-toggle="collapse" data-bs-target="#value13" aria-expanded="false" aria-controls="value13">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="d-flex align-items-center flex-grow-1">
+                            <i class="fas fa-adjust text-primary me-3 fs-4"></i>
+                            <div class="flex-grow-1">
+                                <div class="d-flex justify-content-between align-items-center">
+                                <span class="fs-5 fw-bold text-warning">13. Regulatory Adaptability & Proportionality</span>
+                                </div>
+                            </div>
+                            </div>
+                            <i class="fas fa-chevron-down fs-5 ms-3"></i>
+                        </div>
+                        </button>
+                    </h5>
+                    </div>
+                    <div id="value13" class="collapse">
+                    <div class="card-body">
+                        <p><strong>Definition:</strong> This value embodies a regulatory philosophy where rules are applied in a flexible, tailored, and evolving manner. It ensures that obligations are proportionate to a licensee's capacity, market position, and specific circumstances, avoiding a one-size-fits-all approach. The regulatory framework is designed to adapt to new challenges and practical realities, promoting both fairness and long-term effectiveness.</p>
+                        <p><strong>Key Indicators:</strong></p>
+                        <ul>
+                            <li>The existence of distinct rule sets for different types of licensees (e.g., commercial vs. community broadcasters).</li>
+                            <li>Regulatory obligations that scale based on objective criteria such as market size, network reach, or consolidation status.</li>
+                            <li>The use of phased-in requirements or escalating targets over time, providing a predictable pathway for compliance (e.g., annual increases in captioning quotas).</li>
+                            <li>Inclusion of mechanisms for exemptions, grace periods for new services, or qualifying language (e.g., 'where practicable') to account for specific challenges.</li>
+                            <li>Rules are reviewed and adjusted in response to changing technology, market dynamics, or demonstrated community needs.</li>
+                        </ul>
+                        <p><strong>Common Violations:</strong></p>
+                        <ul>
+                            <li>Failing to adhere to the specific obligations designed for one's license category and scale of operations.</li>
+                            <li>Misrepresenting market position or reach to avoid triggering higher-tier, proportionate obligations (e.g., local content quotas).</li>
+                            <li>Consistently failing to meet staged compliance deadlines (e.g., annual captioning increases) without seeking an exemption or providing valid justification.</li>
+                            <li>Improperly seeking exemptions or citing 'impracticability' without sufficient evidence, using flexibility as a means to evade core responsibilities.</li>
+                        </ul>
+                    </div>
+                    </div>
+                </div>
+                
+                <!-- Value: Regulatory Adherence & Governance -->
+                <div class="card mb-3">
+                    <div class="card-header">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link text-start w-100 p-0" type="button" data-bs-toggle="collapse" data-bs-target="#value14" aria-expanded="false" aria-controls="value14">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="d-flex align-items-center flex-grow-1">
+                            <i class="fas fa-gavel text-primary me-3 fs-4"></i>
+                            <div class="flex-grow-1">
+                                <div class="d-flex justify-content-between align-items-center">
+                                <span class="fs-5 fw-bold text-warning">14. Regulatory Adherence & Governance</span>
+                                </div>
+                            </div>
+                            </div>
+                            <i class="fas fa-chevron-down fs-5 ms-3"></i>
+                        </div>
+                        </button>
+                    </h5>
+                    </div>
+                    <div id="value14" class="collapse">
+                    <div class="card-body">
+                        <p><strong>Definition:</strong> Regulatory Adherence & Governance is the foundational principle that broadcasting is a governed activity operating under a mandatory legal and regulatory framework. It establishes the authority of the regulator and the non-negotiable obligation of licensees to strictly comply with all applicable laws, licence conditions, industry codes, and standards. This value underscores that the right to broadcast is conditional upon complete and consistent adherence to this established rule-based system.</p>
+                        <p><strong>Key Indicators:</strong></p>
+                        <ul>
+                            <li>Existence of a clear, formal, and publicly accessible framework of laws, codes, standards, and licence conditions.</li>
+                            <li>Licensees maintaining robust internal processes and systems to monitor and ensure ongoing compliance with all regulatory obligations.</li>
+                            <li>Consistent communication from the regulator and industry bodies emphasizing the mandatory nature of rules (e.g., using 'must', 'required').</li>
+                            <li>Application of clear and consistent enforcement actions, including penalties for non-compliance.</li>
+                        </ul>
+                        <p><strong>Common Violations:</strong></p>
+                        <ul>
+                            <li>Broadcasting content or advertising that explicitly breaches established rules, codes, or standards.</li>
+                            <li>Failing to operate within the specific conditions and obligations outlined in the broadcasting licence.</li>
+                            <li>Disregarding or failing to respond to formal directions, investigations, or enforcement actions from the regulator.</li>
+                            <li>Systemic failure to maintain adequate internal governance and compliance systems, leading to repeated breaches.</li>
+                        </ul>
+                    </div>
+                    </div>
+                </div>
+                
+                <!-- Value: Regulatory Clarity & Precision -->
+                <div class="card mb-3">
+                    <div class="card-header">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link text-start w-100 p-0" type="button" data-bs-toggle="collapse" data-bs-target="#value15" aria-expanded="false" aria-controls="value15">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="d-flex align-items-center flex-grow-1">
+                            <i class="fas fa-bullseye text-primary me-3 fs-4"></i>
+                            <div class="flex-grow-1">
+                                <div class="d-flex justify-content-between align-items-center">
+                                <span class="fs-5 fw-bold text-warning">15. Regulatory Clarity & Precision</span>
+                                </div>
+                            </div>
+                            </div>
+                            <i class="fas fa-chevron-down fs-5 ms-3"></i>
+                        </div>
+                        </button>
+                    </h5>
+                    </div>
+                    <div id="value15" class="collapse">
+                    <div class="card-body">
+                        <p><strong>Definition:</strong> This value reflects the regulator's commitment to formulating rules that are clear, specific, and unambiguous, ensuring they are easily understood by the entities they govern. It is demonstrated by using precise quantitative measures, explicit definitions, and structured guidance to eliminate ambiguity, providing regulated parties with a direct and certain understanding of their obligations.</p>
+                        <p><strong>Key Indicators:</strong></p>
+                        <ul>
+                            <li>Using specific quantitative measures, such as percentages, time periods, and fixed quotas, to define obligations.</li>
+                            <li>Providing explicit definitions for key terms and concepts (e.g., 'terrorism-related content') within the regulatory text.</li>
+                            <li>Employing detailed tables, schedules, or lists to clearly categorize regulated entities, license areas, or content types.</li>
+                            <li>Citing and linking to primary legislation, authoritative source documents (e.g., the Criminal Code), and official lists to ground requirements.</li>
+                            <li>Publishing supplementary guidelines and explanatory materials to aid interpretation and simplify compliance.</li>
+                        </ul>
+                        <p><strong>Common Violations:</strong></p>
+                        <ul>
+                            <li>Using vague or subjective language (e.g., 'a reasonable amount', 'promptly') without providing further definition or context.</li>
+                            <li>Leaving critical terms undefined, forcing licensees to guess their meaning and leading to inconsistent interpretations.</li>
+                            <li>Failing to specify the legal basis or source document for a requirement, creating uncertainty about its authority.</li>
+                            <li>Creating overly broad or poorly defined categories that cause confusion about who or what is covered by a rule.</li>
+                            <li>Relying on unwritten or informal 'understandings' for compliance instead of documented, accessible rules and guidance.</li>
+                        </ul>
+                    </div>
+                    </div>
+                </div>
+                
+                <!-- Value: Structured Complaint Resolution -->
+                <div class="card mb-3">
+                    <div class="card-header">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link text-start w-100 p-0" type="button" data-bs-toggle="collapse" data-bs-target="#value16" aria-expanded="false" aria-controls="value16">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="d-flex align-items-center flex-grow-1">
+                            <i class="fas fa-comments text-primary me-3 fs-4"></i>
+                            <div class="flex-grow-1">
+                                <div class="d-flex justify-content-between align-items-center">
+                                <span class="fs-5 fw-bold text-warning">16. Structured Complaint Resolution</span>
+                                </div>
+                            </div>
+                            </div>
+                            <i class="fas fa-chevron-down fs-5 ms-3"></i>
+                        </div>
+                        </button>
+                    </h5>
+                    </div>
+                    <div id="value16" class="collapse">
+                    <div class="card-body">
+                        <p><strong>Definition:</strong> This value represents the formal, multi-step process for resolving public complaints against broadcasters. The process requires complainants to first seek resolution directly with the broadcaster before they can escalate unresolved or unaddressed issues to the regulatory authority. This tiered approach provides a clear and accessible procedural safeguard for audiences to have their grievances heard and addressed.</p>
+                        <p><strong>Key Indicators:</strong></p>
+                        <ul>
+                            <li>Broadcasters maintain and publicize a clear, accessible process for receiving and responding to public complaints.</li>
+                            <li>Complainants are required to first lodge their grievance directly with the relevant broadcaster.</li>
+                            <li>The regulatory body provides a secondary pathway for complaints that are unresolved or unaddressed by the broadcaster after a specified period.</li>
+                            <li>There are defined timeframes for broadcasters to respond to initial complaints.</li>
+                        </ul>
+                        <p><strong>Common Violations:</strong></p>
+                        <ul>
+                            <li>A broadcaster fails to establish or publicize an accessible complaints-handling process.</li>
+                            <li>A broadcaster does not respond to a formal complaint within the mandated timeframe, or at all.</li>
+                            <li>A broadcaster's response fails to substantively address the code-related issues raised in the complaint.</li>
+                            <li>A complainant escalates an issue to the regulatory body without first attempting resolution with the broadcaster.</li>
+                        </ul>
+                    </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Technical Implementation -->
+            <div class="row mb-5">
+              <div class="col-lg-12">
+                <h3 class="mb-4">Technical Implementation</h3>
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title">Python Research Package</h5>
+                    <p>The full Regulator Values Analysis tool will be a comprehensive Python package designed for systematic regulatory values extraction. Here's how it will work:</p>
+                    
+                    <div class="row mb-4">
+                      <div class="col-md-6">
+                        <h6><i class="fas fa-spider text-primary me-2"></i>Web Scraping</h6>
+                        <ul class="list-unstyled">
+                          <li>• Automated scraping of regulatory guidance pages</li>
+                          <li>• Extraction of normative standards and obligations</li>
+                          <li>• Structured data capture with metadata preservation</li>
+                        </ul>
+                      </div>
+                      <div class="col-md-6">
+                        <h6><i class="fas fa-brain text-primary me-2"></i>AI-Powered Analysis</h6>
+                        <ul class="list-unstyled">
+                          <li>• LLM-based value extraction from guidance documents</li>
+                          <li>• Multi-pass consolidation process</li>
+                          <li>• Systematic categorization and definition generation</li>
+                        </ul>
+                      </div>
+                    </div>
+
+                    <div class="row mb-4">
+                      <div class="col-md-6">
+                        <h6><i class="fas fa-file-pdf text-primary me-2"></i>Report Processing</h6>
+                        <ul class="list-unstyled">
+                          <li>• PDF text extraction from enforcement reports</li>
+                          <li>• Violation identification and categorization</li>
+                          <li>• Mapping violations to values taxonomy</li>
+                        </ul>
+                      </div>
+                      <div class="col-md-6">
+                        <h6><i class="fas fa-database text-primary me-2"></i>Data Management</h6>
+                        <ul class="list-unstyled">
+                          <li>• Structured JSON outputs</li>
+                          <li>• Comprehensive metadata tracking</li>
+                          <li>• Quality validation and verification</li>
+                        </ul>
+                      </div>
+                    </div>
+                    <p>I'll get back to finishing the project when I have time.</p>
+
+
+                    <div class="alert alert-info">
+                      <h6><i class="fas fa-info-circle me-2"></i>Research Demonstration</h6>
+                      <p class="mb-0">This is a research demonstration project for Values Alignment Intelligence, showcasing how systematic value extraction can reveal the moral architecture of regulatory frameworks and identify patterns of institutional values misalignment.</p>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Related Content -->
+            <div class="row mb-5">
+              <div class="col-lg-12">
+                <h3 class="mb-4">Related Content</h3>
+                <div class="row">
+                  <div class="col-md-6 mb-3">
+                    <div class="card">
+                      <div class="card-body">
+                        <h6 class="card-title">Hansard Political Values Tool</h6>
+                        <p class="card-text">Explore the related project that extracts political values from parliamentary discourse using the same VAI methodology.</p>
+                        <a href="hansard-political-values-tool.html" class="btn btn-sm btn-outline-primary">View Project</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6 mb-3">
+                    <div class="card">
+                      <div class="card-body">
+                        <h6 class="card-title">Back to Projects</h6>
+                        <p class="card-text">Return to the main projects page to explore other research tools and frameworks.</p>
+                        <a href="projects.html" class="btn btn-sm btn-outline-primary">View All Projects</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+  <!-- End Main Content Area -->
+
+  <!-- Footer -->
+  <footer class="footer mt-5 py-3">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="text-center">
+            <p class="text-dark my-0 text-sm font-weight-normal">
+              All rights reserved. Copyright © <script>document.write(new Date().getFullYear())</script> Brendon Hawkins.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- End Footer -->
+
+  <!-- Core JS Files -->
+  <script src="./assets/js/core/popper.min.js" type="text/javascript"></script>
+  <script src="./assets/js/core/bootstrap.min.js" type="text/javascript"></script>
+  <!-- Optional Plugins -->
+  <script src="./assets/js/plugins/perfect-scrollbar.min.js"></script>
+  <!-- Main Script -->
+  <script src="./assets/js/soft-design-system-pro.min.js?v=1.2.0" type="text/javascript"></script>
+  <!-- Tooltip Initializer -->
+  <script>
+    var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+    var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+      return new bootstrap.Tooltip(tooltipTriggerEl)
+    })
+  </script>
+</body>
+
+</html>
+
