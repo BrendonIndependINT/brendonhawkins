@@ -1,14 +1,54 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" itemscope itemtype="http://schema.org/Article">
 
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="apple-touch-icon" sizes="76x76" href="./assets/img/apple-icon.png">
   <link rel="icon" type="image/png" href="./assets/img/favicon.png">
-  <title>
-    Narrative Values Extractor - Brendon Hawkins
-  </title>
+  
+  <!-- Primary Meta Tags -->
+  <title>Narrative Values Extractor - Brendon Hawkins</title>
+  <meta name="title" content="Narrative Values Extractor - Brendon Hawkins">
+  <meta name="description" content="A simple tool demonstrator for seeing the moral story inside the news.">
+  <meta name="keywords" content="systems thinking, AI alignment, human values, governance, intelligence, systems design, civic technology, values alignment, institutional alignment, bureaucracy, organisational values">
+  <meta name="author" content="Brendon Hawkins">
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://brendonhawkins.com/narrative-values-extractor.html">
+  <meta property="og:title" content="Narrative Values Extractor">
+  <meta property="og:description" content="A simple tool demonstrator for seeing the moral story inside the news.">
+  <meta property="og:image" content="https://brendonhawkins.com/assets/img/systems_of_value_blog/narrative_values_extractor.jpg">
+  
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://brendonhawkins.com/narrative-values-extractor.html">
+  <meta property="twitter:title" content="Narrative Values Extractor">
+  <meta property="twitter:description" content="A simple tool demonstrator for seeing the moral story inside the news.">
+  <meta property="twitter:image" content="https://brendonhawkins.com/assets/img/systems_of_value_blog/narrative_values_extractor.jpg">
+  
+  <!-- Schema.org structured data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "headline": "Narrative Values Extractor",
+    "description": "A simple tool demonstrator for seeing the moral story inside the news.",
+    "image": "https://brendonhawkins.com/assets/img/systems_of_value_blog/narrative_values_extractor.jpg",
+    "author": {
+      "@type": "Person",
+      "name": "Brendon Hawkins"
+    },
+    "publisher": {
+      "@type": "Person",
+      "name": "Brendon Hawkins"
+    },
+    "datePublished": "2025-10-07",
+    "dateModified": "2025-10-07"
+  }
+  </script>
+  
   <!--     Fonts and icons     -->
   <link href="https://fonts.googleapis.com/css?family=Inter:300,400,500,600,700,800" rel="stylesheet" />
   <!-- Nucleo Icons -->
@@ -20,9 +60,64 @@
   <link id="pagestyle" href="./assets/css/soft-design-system-pro.min.css?v=1.2.0" rel="stylesheet" />
   <!-- Custom CSS -->
   <link href="./assets/css/custom.css" rel="stylesheet" />
+  <style>
+    /* Indent italicized paragraphs */
+    .italic-quote {
+      margin-left: 2rem;
+      margin-right: 2rem;
+      padding-left: 1rem;
+      border-left: 3px solid rgba(0, 0, 0, 0.1);
+      font-style: italic;
+    }
+    
+    /* Centered quote with lines above and below */
+    .centered-quote {
+      text-align: center;
+      margin: 3rem 0;
+      padding: 2rem 0;
+      border-top: 1px solid rgba(0, 0, 0, 0.2);
+      border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    }
+    
+    .centered-quote p {
+      font-style: italic;
+      font-size: 1.25rem;
+      margin-bottom: 1rem;
+      color: rgba(0, 0, 0, 0.8);
+    }
+    
+    .centered-quote cite {
+      display: block;
+      font-style: normal;
+      font-size: 0.9rem;
+      color: rgba(0, 0, 0, 0.6);
+      margin-top: 0.5rem;
+    }
+    
+    /* Figure styling for images with captions */
+    figure {
+      margin: 2rem 0;
+    }
+    
+    figure img {
+      width: 100%;
+      max-width: 100%;
+      height: auto;
+      border-radius: 0.5rem;
+      display: block;
+    }
+    
+    figcaption {
+      text-align: center;
+      color: rgba(0, 0, 0, 0.6);
+      font-size: 0.875rem;
+      margin-top: 0.75rem;
+      font-style: italic;
+    }
+  </style>
 </head>
 
-<body class="project-page">
+<body class="blog-page">
 
   <!-- Navbar -->
   <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-white shadow-sm">
@@ -50,7 +145,7 @@
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-dark font-weight-bold d-flex align-items-center me-2 active" aria-current="page" href="projects.html">
+            <a class="nav-link text-dark font-weight-bold d-flex align-items-center me-2" href="projects.html">
               Projects
             </a>
           </li>
@@ -60,7 +155,7 @@
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-dark font-weight-bold d-flex align-items-center me-2" href="blog.html">
+            <a class="nav-link text-dark font-weight-bold d-flex align-items-center me-2 active" aria-current="page" href="blog.html">
               Blog
             </a>
           </li>
@@ -78,14 +173,19 @@
   <!-- Main Content Area -->
   <main class="main-content">
 
-    <!-- Page Header Section -->
-    <div class="page-header min-vh-75" style="background-image: url('./assets/img/header-background-projects.JPG');">
+    <!-- Page Header Section with Blog Post Image -->
+    <div class="page-header min-vh-75" style="background-image: url('./assets/img/systems_of_value_blog/narrative_values_extractor.jpg');">
       <span class="mask bg-gradient-dark opacity-6"></span>
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-lg-8 text-center mx-auto">
             <h1 class="text-white display-4 font-weight-bolder">Narrative Values Extractor</h1>
-            <p class="lead text-white opacity-8">AI-powered analysis of media narratives to extract underlying value conflicts and suggest bridging solutions.</p>
+            <p class="lead text-white opacity-8">A simple tool demonstrator for seeing the moral story inside the news.</p>
+            <div class="mt-4">
+              <p class="text-white opacity-8 mb-0">
+                <small>Published: 07 October 2025</small>
+              </p>
+            </div>
           </div>
         </div>
       </div>
@@ -108,178 +208,118 @@
     </div>
     <!-- End Page Header Section -->
 
-    <!-- Project Overview Section -->
+    <!-- Blog Post Content Section -->
     <section class="py-5">
       <div class="container">
         <div class="row justify-content-center">
-          <div class="col-lg-10">
+          <div class="col-lg-8">
             
-            <!-- Project Image -->
-            <div class="text-center mb-5">
-              <img src="./assets/img/systems_of_value_blog/narrative_values_extractor.jpg" class="img-fluid rounded shadow-lg" alt="Narrative Values Extractor" style="max-width: 600px;">
+            <!-- Back to Blog Link -->
+            <div class="mb-4">
+              <a href="blog.html" class="text-dark">
+                <i class="fas fa-arrow-left me-2"></i>Back to Blog
+              </a>
             </div>
 
-            <!-- Project Description -->
-            <div class="row mb-5">
-              <div class="col-lg-8 mx-auto">
-                <h2 class="text-center mb-4">Project Overview</h2>
-                <p class="lead text-center mb-4">
-                  The Narrative Values Extractor is an AI-powered tool designed to analyse news articles, op-eds, and other media narratives to extract the underlying value conflicts between different actors. This tool helps users understand the deeper ethical dimensions of public discourse and suggests practical bridging solutions.
-                </p>
-                <p class="lead text-center mb-4">
-                  This tool demonstrates how AI can be used to make complex value conflicts explicit and actionable, supporting more constructive dialogue and policy development.
-                </p>
-                <div class="text-center mb-4">
-                  <a href="https://chatgpt.com/g/g-689be848ae848191a88eaf373d51cf5a-narrative-values-extractor" class="btn btn-primary btn-lg" target="_blank">
-                    <i class="fas fa-external-link-alt me-2"></i>Try the Narrative Values Extractor
-                  </a>
-                </div>
-              </div>
-            </div>
+            <!-- Article Content -->
+            <article>
+              <p>The goal of this tool is to look beyond the positions that actors assert when making arguments, and to surface the underlying values that are used justify them. Most political or policy debates are really clashes between value systems that remain invisible. We argue about outcomes without first acknowledging the moral assumptions that shape what each side considers legitimate or fair.</p>
+              <figure>
+              <img src="./assets/img/systems_of_value_blog/narrative_values_extractor.jpg" alt="We're good at talking about issues, but not values.">
+              <figcaption>We're good at talking about issues, but not values. Image generated by Chat GPT.</figcaption>
+              </figure>
 
-            <!-- Key Features -->
-            <div class="row mb-5">
-              <div class="col-lg-12">
-                <h3 class="mb-4">Key Features</h3>
-                <div class="row">
-                  <div class="col-md-6 mb-4">
-                    <div class="card h-100">
-                      <div class="card-body">
-                        <h5 class="card-title"><i class="fas fa-users text-primary me-2"></i>Actor Identification</h5>
-                        <p class="card-text">Automatically identifies and maps all named groups and actors in a narrative, including implicit actors referenced in the text.</p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-md-6 mb-4">
-                    <div class="card h-100">
-                      <div class="card-body">
-                        <h5 class="card-title"><i class="fas fa-heart text-primary me-2"></i>Value Extraction</h5>
-                        <p class="card-text">Extracts core values as nouns and noun phrases, distinguishing between stated and inferred values with clear attribution.</p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-md-6 mb-4">
-                    <div class="card h-100">
-                      <div class="card-body">
-                        <h5 class="card-title"><i class="fas fa-balance-scale text-primary me-2"></i>Conflict Mapping</h5>
-                        <p class="card-text">Identifies value clashes, narrative devices, and asymmetries of power, voice, risk, or information between actors.</p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-md-6 mb-4">
-                    <div class="card h-100">
-                      <div class="card-body">
-                        <h5 class="card-title"><i class="fas fa-handshake text-primary me-2"></i>Bridging Solutions</h5>
-                        <p class="card-text">Suggests 2-4 practical, actionable ideas that honour both sides' values without resorting to platitudes.</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+              <p>I built it because I keep seeing people talk past one another. These are smart, well-intentioned individuals who weren’t disagreeing about the facts, they’re disagreeing about values. Our public debates have been flattened and have lost their moral literacy. The aim of this tool is to make those hidden assumptions visible again, so that conversations can start with understanding.</p>
 
-            <!-- Example Articles Section -->
-            <div class="row mb-5">
-              <div class="col-lg-12">
-                <h3 class="mb-4">Example Articles</h3>
-                <p class="lead mb-4">These articles demonstrate the types of narratives that work particularly well with the Narrative Values Extractor, showcasing clear value conflicts and multiple perspectives.</p>
-                
-                <!-- Example Article -->
-                <div class="card mb-4">
-                  <div class="card-body">
-                    <h5 class="card-title">"Wombat cuddlers" v "wombat shooters" in Taralga</h5>
-                    <p class="card-text"><strong>Source:</strong> ABC News Background Briefing</p>
-                    <p class="card-text"><strong>Why it works well:</strong> This article perfectly illustrates the Narrative Values Extractor's capabilities. It presents clear value conflicts between "wombat cuddlers" (animal welfare advocates) and "wombat shooters" (farmers protecting their livelihoods), with explicit narrative devices like the "cuddlers vs shooters" framing. The story maps multiple actors with distinct values, legitimacy claims, and red lines.</p>
-                    <p class="card-text"><strong>Key value conflicts:</strong> Animal welfare ↔ Property rights, Conservation ↔ Economic survival, Urban values ↔ Rural traditions</p>
-                    <div class="d-flex gap-2 mt-3">
-                      <a href="https://www.abc.net.au/news/2025-07-05/wombat-cuddlers-v-wombat-shooters-in-taralga/105387982" class="btn btn-outline-primary btn-sm" target="_blank">Read Article</a>
-                      <a href="https://chatgpt.com/g/g-689be848ae848191a88eaf373d51cf5a-narrative-values-extractor" class="btn btn-primary btn-sm" target="_blank">Try Analysis</a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+              <p>Our arguments aren’t just about facts or interests, they’re about what people care about most, often without realising it. By tracing those hidden values, we can start to see why certain conflicts feel unsolvable and where dialogue might actually begin. The Narrative Values Extractor doesn’t tell us who’s right or wrong; it helps us understand why people take the positions they do.</p>
 
-            <!-- Technical Details -->
-            <div class="row mb-5">
-              <div class="col-lg-12">
-                <h3 class="mb-4">Technical Implementation</h3>
-                <div class="card">
-                  <div class="card-body">
-                    <h5 class="card-title">How Version 1 Works</h5>
-                    <p>The Narrative Values Extractor Version 1 is a proof-of-concept AI tool built using ChatGPT's custom GPT functionality. Here's how it operates:</p>
-                    
-                    <div class="row mb-4">
-                      <div class="col-md-6">
-                        <h6><i class="fas fa-file-import text-primary me-2"></i>Input Processing</h6>
-                        <ul class="list-unstyled">
-                          <li>• Accepts website URLs or pasted text content</li>
-                          <li>• Handles paywalled content by requesting pasted text</li>
-                          <li>• Captures title and date information when available</li>
-                        </ul>
-                      </div>
-                      <div class="col-md-6">
-                        <h6><i class="fas fa-search text-primary me-2"></i>Analysis Process</h6>
-                        <ul class="list-unstyled">
-                          <li>• Enumerates all named groups and actors</li>
-                          <li>• Extracts values as nouns/noun phrases</li>
-                          <li>• Distinguishes stated vs inferred values</li>
-                        </ul>
-                      </div>
-                    </div>
+              <h2>How it works</h2>
 
-                    <div class="row mb-4">
-                      <div class="col-md-6">
-                        <h6><i class="fas fa-quote-left text-primary me-2"></i>Evidence Discipline</h6>
-                        <ul class="list-unstyled">
-                          <li>• Prefers quotations and clear facts from sources</li>
-                          <li>• Provides inline citations when browsing is enabled</li>
-                          <li>• Avoids over-citation while maintaining accuracy</li>
-                        </ul>
-                      </div>
-                      <div class="col-md-6">
-                        <h6><i class="fas fa-file-alt text-primary me-2"></i>Output Generation</h6>
-                        <ul class="list-unstyled">
-                          <li>• Creates structured markdown reports</li>
-                          <li>• Maps value clashes and narrative devices</li>
-                          <li>• Suggests concrete bridging solutions</li>
-                        </ul>
-                      </div>
-                    </div>
+              <p>The custom GPT works by taking a narrative text such as a news article, editorial, or statement, and producing a short, structured values map. Instead of summarising events, it identifies the groups involved, the values they claim, how they frame the issue, and what solutions they prefer. It also surfaces the conflicts between groups and suggests possible ways forward. The result is a human-readable report that outlines the moral and normative information often hidden inside public narratives.</p>
 
-                    <div class="alert alert-info">
-                      <h6><i class="fas fa-info-circle me-2"></i>Version 1 Limitations</h6>
-                      <p class="mb-0">This is a proof-of-concept demonstration created to show how AI might help extract and map value conflicts in media narratives. It's designed for analytical purposes and should be treated as a tool for understanding discourse rather than definitive analysis.</p>
-                    </div>
+              <p>The tool follows a strict step-by-step process:</p>
+              <ol>
+                <li>Is given a purpose: to read a single narrative and output a compact, structured values map.</li>
+                <li>Is given the output format and output mode.</li>
+                <li>Ingests URL, file, or copied block of text.</li>
+                <li>Discovers the actors named in the narrative:
+                  <ul>
+                    <li>Enumerates over name groups and actors.</li>
+                    <li>Merges duplicates.</li>
+                    <li>Requires that actors be relevant to values map before recording them.</li>
+                  </ul>
+                </li>
+                <li>Extracts values:
+                  <ul>
+                    <li>Extracts values nouns and noun phrases.</li>
+                    <li>Separates stated values from inferred values.</li>
+                  </ul>
+                </li>
+                <li>Evaluates the evidence with discipline:
+                  <ul>
+                    <li>Using quotations where possible.</li>
+                    <li>Includes citations when browsing is on.</li>
+                  </ul>
+                </li>
+                <li>Produces a conflict map:
+                  <ul>
+                    <li>Lists value-vs-value clashes as X ↔ Y pairs.</li>
+                    <li>Notes narrative devices.</li>
+                    <li>Surfaces asymmetries of power, voice, risk, or information.</li>
+                  </ul>
+                </li>
+                <li>Proposes bridging hypotheses:
+                  <ul>
+                    <li>2-4 practical ideas that honour both sides' values.</li>
+                    <li>Is concrete in recommendations.</li>
+                  </ul>
+                </li>
+                <li>Checks output for quality, bias, insufficient information, missing groups.</li>
+              </ol>
 
-                    <p class="mt-3"><strong>Status:</strong> <span class="badge bg-warning">Proof of Concept</span> <strong>Version:</strong> <span class="badge bg-info">1.0</span></p>
+              <h2>Limitations</h2>
+
+              <p>The tool sometimes gives infers actors based on the text. This is referenced, but it’s something that I’m considering explicitly excluding because it can cause confusion. You can see that the example at the end of this piece references the NSW licensing authority who weren’t quoted in the article. I’ve kept it in for transparency, it shows the limitations of this approach.</p>
+
+              <p>The stated values don’t match any values framework. They are the best match of the LLM to what it considers human values to be. That’s ok for this project, because this is a first pass where you extract the values from a narrative before aggregating it across a group corpus and building the values map from that. In a larger project I’d be taking thousands (or hundreds of thousands) of these outputs, then collapsing them into the main threads to discover the fundamental values.</p>
+
+              <p>I also wouldn’t recommend using the outputs as a source of ultimate truth. These are designed like I build intelligence tools. They point a user in the right direction, reduce uncertainty, surface indicators that might inform more in-depth analysis, that kind of thing. We’re the moral agents here, not the LLMs. It means we need to use our own judgement, this is just to help.</p>
+
+              <h2>Using the tool</h2>
+
+              <p>Like the Terms of Service Evaluator, it’s pretty simple. All you need to do is open the custom GPT, paste the URL or text, and let it do its thing. If you can, turn on thinking mode, it gives a much better response.</p>
+
+              <p>The link to the tool is <a href="https://chatgpt.com/g/g-689be848ae848191a88eaf373d51cf5a-narrative-values-extractor">here</a>.</p>
+
+              <p>This works best with articles that are rich in values statements and have at least two opposing sides. I have also tested it out with texts like the poem The Man from Snowy River and the French national anthem La Marseillaise. The results were very pretty cool. Still, I’d try it with investigative news articles first, particularly those which talk about a wrong being committed.</p>
+
+              <h2>How it fits in the bigger picture</h2>
+
+              <p>The aim of this proof of concept is to demonstrate how you can extract values from a text. The techniques it uses are the same as more complex processes I’ve built, such as the <a href="https://brendonhawkins.com/hansard-political-values-tool.html">Political Values Analysis tool</a>, simplified so that it can be used by the public. But what’s important is that it shows that LLMs can make explicit the values that are just under the surface of contested issues.</p>
+
+              <p>I think this might be the most practical of the custom GPTs I’ve built so far. It’s something anyone can use when they’re trying to make sense of a complex issue by understanding the moral terrain underneath.</p>
+
+              <p>Next week we’re going to get to the good stuff, to Alignment, the central challenge of this series.</p>
+            </article>
+
+            <!-- Author and Share Section -->
+            <div class="mt-5 pt-4 border-top">
+              <div class="row">
+                <div class="col-md-6 mb-4 mb-md-0">
+                  <div class="d-flex align-items-center">
+                    <img src="./assets/img/square/brendon.jpg" alt="Brendon Hawkins" class="avatar avatar-lg shadow me-3">
+                    <div>
+                      <h6 class="mb-0">Brendon Hawkins</h6>
+                      <p class="text-sm text-muted mb-0">Intelligence professional exploring systems, values, and AI</p>
+                    </div>
                   </div>
                 </div>
-              </div>
-            </div>
-
-            <!-- Related Content -->
-            <div class="row mb-5">
-              <div class="col-lg-12">
-                <h3 class="mb-4">Related Content</h3>
-                <div class="row">
-                  <div class="col-md-6 mb-3">
-                    <div class="card">
-                      <div class="card-body">
-                        <h6 class="card-title">Systems of Value Blog</h6>
-                        <p class="card-text">Read more about narrative analysis and value extraction in the Systems of Value Substack.</p>
-                        <a href="https://brendonhawkins.substack.com/" class="btn btn-sm btn-outline-primary" target="_blank">Visit Substack</a>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-md-6 mb-3">
-                    <div class="card">
-                      <div class="card-body">
-                        <h6 class="card-title">Back to Projects</h6>
-                        <p class="card-text">Return to the main projects page to explore other tools and frameworks.</p>
-                        <a href="projects.html" class="btn btn-sm btn-outline-primary">View All Projects</a>
-                      </div>
-                    </div>
+                <div class="col-md-6 text-md-end">
+                  <p class="text-sm text-muted mb-2">Share this post</p>
+                  <div>
+                    <a href="https://brendonhawkins.substack.com/p/narrative-values-extractor" class="btn btn-sm btn-outline-primary me-2" target="_blank">
+                      <i class="fas fa-external-link-alt me-1"></i>Read on Substack
+                    </a>
                   </div>
                 </div>
               </div>
@@ -289,6 +329,7 @@
         </div>
       </div>
     </section>
+    <!-- End Blog Post Content Section -->
 
   </main>
   <!-- End Main Content Area -->

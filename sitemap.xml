@@ -53,27 +53,6 @@
   
   <!-- AI Tools Pages -->
   <url>
-    <loc>https://brendonhawkins.com/narrative-values-extractor.html</loc>
-    <lastmod>2025-01-07</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://brendonhawkins.com/terms-of-service-evaluator.html</loc>
-    <lastmod>2025-01-07</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://brendonhawkins.com/system-values-analysis-tool.html</loc>
-    <lastmod>2025-01-07</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://brendonhawkins.com/hansard-political-values-tool.html</loc>
     <lastmod>2025-01-07</lastmod>
     <changefreq>monthly</changefreq>
@@ -99,6 +78,84 @@
     <lastmod>2025-01-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+  </url>
+  
+  <!-- Blog Posts -->
+  <url>
+    <loc>https://brendonhawkins.com/moral-alignment-teaching-systems-to-feel.html</loc>
+    <lastmod>2025-01-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
+    <loc>https://brendonhawkins.com/narrative-values-extractor.html</loc>
+    <lastmod>2025-01-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
+    <loc>https://brendonhawkins.com/articulating-our-values-for-systems.html</loc>
+    <lastmod>2025-01-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
+    <loc>https://brendonhawkins.com/an-alignment-chart-for-those-who-have-seen-the-insanity-of-the-system-and-responded-as-best-they-can.html</loc>
+    <lastmod>2025-01-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
+    <loc>https://brendonhawkins.com/authoring-our-values.html</loc>
+    <lastmod>2025-01-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
+    <loc>https://brendonhawkins.com/terms-of-service-evaluator.html</loc>
+    <lastmod>2025-01-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
+    <loc>https://brendonhawkins.com/when-ai-becomes-the-system.html</loc>
+    <lastmod>2025-01-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
+    <loc>https://brendonhawkins.com/how-values-get-lost-in-translation.html</loc>
+    <lastmod>2025-01-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
+    <loc>https://brendonhawkins.com/organisations-as-emergent-non-conscious-intelligences.html</loc>
+    <lastmod>2025-01-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
+    <loc>https://brendonhawkins.com/aligning-our-systems-to-human-values.html</loc>
+    <lastmod>2025-01-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
+    <loc>https://brendonhawkins.com/system-values-analysis-tool.html</loc>
+    <lastmod>2025-01-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
 
 </urlset>

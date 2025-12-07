@@ -1,14 +1,54 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" itemscope itemtype="http://schema.org/Article">
 
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="apple-touch-icon" sizes="76x76" href="./assets/img/apple-icon.png">
   <link rel="icon" type="image/png" href="./assets/img/favicon.png">
-  <title>
-    System Values Analysis Tool - Brendon Hawkins
-  </title>
+  
+  <!-- Primary Meta Tags -->
+  <title>System Values Analysis Tool - Brendon Hawkins</title>
+  <meta name="title" content="System Values Analysis Tool - Brendon Hawkins">
+  <meta name="description" content="Surfacing the gap between a system's stated values and its behaviours.">
+  <meta name="keywords" content="systems thinking, AI alignment, human values, governance, intelligence, systems design, civic technology, values alignment, institutional alignment, bureaucracy, organisational values">
+  <meta name="author" content="Brendon Hawkins">
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://brendonhawkins.com/system-values-analysis-tool.html">
+  <meta property="og:title" content="System Values Analysis Tool">
+  <meta property="og:description" content="Surfacing the gap between a system's stated values and its behaviours.">
+  <meta property="og:image" content="https://brendonhawkins.com/assets/img/systems_of_value_blog/system_values_analysis_tool.jpg">
+  
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://brendonhawkins.com/system-values-analysis-tool.html">
+  <meta property="twitter:title" content="System Values Analysis Tool">
+  <meta property="twitter:description" content="Surfacing the gap between a system's stated values and its behaviours.">
+  <meta property="twitter:image" content="https://brendonhawkins.com/assets/img/systems_of_value_blog/system_values_analysis_tool.jpg">
+  
+  <!-- Schema.org structured data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "headline": "System Values Analysis Tool",
+    "description": "Surfacing the gap between a system's stated values and its behaviours.",
+    "image": "https://brendonhawkins.com/assets/img/systems_of_value_blog/system_values_analysis_tool.jpg",
+    "author": {
+      "@type": "Person",
+      "name": "Brendon Hawkins"
+    },
+    "publisher": {
+      "@type": "Person",
+      "name": "Brendon Hawkins"
+    },
+    "datePublished": "2025-01-01",
+    "dateModified": "2025-01-01"
+  }
+  </script>
+  
   <!--     Fonts and icons     -->
   <link href="https://fonts.googleapis.com/css?family=Inter:300,400,500,600,700,800" rel="stylesheet" />
   <!-- Nucleo Icons -->
@@ -20,9 +60,64 @@
   <link id="pagestyle" href="./assets/css/soft-design-system-pro.min.css?v=1.2.0" rel="stylesheet" />
   <!-- Custom CSS -->
   <link href="./assets/css/custom.css" rel="stylesheet" />
+  <style>
+    /* Indent italicized paragraphs */
+    .italic-quote {
+      margin-left: 2rem;
+      margin-right: 2rem;
+      padding-left: 1rem;
+      border-left: 3px solid rgba(0, 0, 0, 0.1);
+      font-style: italic;
+    }
+    
+    /* Centered quote with lines above and below */
+    .centered-quote {
+      text-align: center;
+      margin: 3rem 0;
+      padding: 2rem 0;
+      border-top: 1px solid rgba(0, 0, 0, 0.2);
+      border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    }
+    
+    .centered-quote p {
+      font-style: italic;
+      font-size: 1.25rem;
+      margin-bottom: 1rem;
+      color: rgba(0, 0, 0, 0.8);
+    }
+    
+    .centered-quote cite {
+      display: block;
+      font-style: normal;
+      font-size: 0.9rem;
+      color: rgba(0, 0, 0, 0.6);
+      margin-top: 0.5rem;
+    }
+    
+    /* Figure styling for images with captions */
+    figure {
+      margin: 2rem 0;
+    }
+    
+    figure img {
+      width: 100%;
+      max-width: 100%;
+      height: auto;
+      border-radius: 0.5rem;
+      display: block;
+    }
+    
+    figcaption {
+      text-align: center;
+      color: rgba(0, 0, 0, 0.6);
+      font-size: 0.875rem;
+      margin-top: 0.75rem;
+      font-style: italic;
+    }
+  </style>
 </head>
 
-<body class="project-page">
+<body class="blog-page">
 
   <!-- Navbar -->
   <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-white shadow-sm">
@@ -50,7 +145,7 @@
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-dark font-weight-bold d-flex align-items-center me-2 active" aria-current="page" href="projects.html">
+            <a class="nav-link text-dark font-weight-bold d-flex align-items-center me-2" href="projects.html">
               Projects
             </a>
           </li>
@@ -60,7 +155,7 @@
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-dark font-weight-bold d-flex align-items-center me-2" href="blog.html">
+            <a class="nav-link text-dark font-weight-bold d-flex align-items-center me-2 active" aria-current="page" href="blog.html">
               Blog
             </a>
           </li>
@@ -78,14 +173,19 @@
   <!-- Main Content Area -->
   <main class="main-content">
 
-    <!-- Page Header Section -->
-    <div class="page-header min-vh-75" style="background-image: url('./assets/img/header-background-projects.JPG');">
+    <!-- Page Header Section with Blog Post Image -->
+    <div class="page-header min-vh-75" style="background-image: url('./assets/img/systems_of_value_blog/system_values_analysis_tool.jpg');">
       <span class="mask bg-gradient-dark opacity-6"></span>
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-lg-8 text-center mx-auto">
             <h1 class="text-white display-4 font-weight-bolder">System Values Analysis Tool</h1>
-            <p class="lead text-white opacity-8">AI-powered analysis of systems to extract stated values and compare them with operational outputs.</p>
+            <p class="lead text-white opacity-8">Surfacing the gap between a system's stated values and its behaviours.</p>
+            <div class="mt-4">
+              <p class="text-white opacity-8 mb-0">
+                <small>Published: 28 October 2025</small>
+              </p>
+            </div>
           </div>
         </div>
       </div>
@@ -108,290 +208,110 @@
     </div>
     <!-- End Page Header Section -->
 
-    <!-- Project Overview Section -->
+    <!-- Blog Post Content Section -->
     <section class="py-5">
       <div class="container">
         <div class="row justify-content-center">
-          <div class="col-lg-10">
+          <div class="col-lg-8">
             
-            <!-- Project Image -->
-            <div class="text-center mb-5">
-              <img src="./assets/img/systems_of_value_blog/system_values_analysis_tool.jpg" class="img-fluid rounded shadow-lg" alt="System Values Analysis Tool" style="max-width: 600px;">
+            <!-- Back to Blog Link -->
+            <div class="mb-4">
+              <a href="blog.html" class="text-dark">
+                <i class="fas fa-arrow-left me-2"></i>Back to Blog
+              </a>
             </div>
 
-            <!-- Project Description -->
-            <div class="row mb-5">
-              <div class="col-lg-8 mx-auto">
-                <h2 class="text-center mb-4">Project Overview</h2>
-                <p class="lead text-center mb-4">
-                  The System Values Analysis Tool examines systems to extract their stated values and compare them with operational outputs. This comprehensive analysis tool helps identify where values are lost, distorted, or reinforced as they travel through different layers of a system.
-                </p>
-                <p class="lead text-center mb-4">
-                  This tool demonstrates how AI can be used to bridge the gap between values-in-theory and values-in-practice, supporting more aligned and effective system design.
-                </p>
-                <div class="text-center mb-4">
-                  <a href="https://chatgpt.com/g/g-689bde3e0a9c81918f8f52d6861b1747-system-values-analysis-tool" class="btn btn-primary btn-lg" target="_blank">
-                    <i class="fas fa-external-link-alt me-2"></i>Try the System Values Analysis Tool
-                  </a>
-                </div>
-              </div>
-            </div>
+            <!-- Article Content -->
+            <article>
+              <blockquote class="centered-quote">
+              <p>"The purpose of a system is what it does."</p>
+              <cite>Stafford Beer</cite>
+              </blockquote>
 
-            <!-- Key Features -->
-            <div class="row mb-5">
-              <div class="col-lg-12">
-                <h3 class="mb-4">Key Features</h3>
-                <div class="row">
-                  <div class="col-md-6 mb-4">
-                    <div class="card h-100">
-                      <div class="card-body">
-                        <h5 class="card-title"><i class="fas fa-search text-primary me-2"></i>System Grounding</h5>
-                        <p class="card-text">Comprehensive research and analysis of governance structures, core functions, funding mechanisms, and recent developments within the target system.</p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-md-6 mb-4">
-                    <div class="card h-100">
-                      <div class="card-body">
-                        <h5 class="card-title"><i class="fas fa-comments text-primary me-2"></i>Narrative Mapping</h5>
-                        <p class="card-text">Analyses public discourse frames, dominant narratives, metaphors, and narrative carriers to understand how the system is portrayed and talked about.</p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-md-6 mb-4">
-                    <div class="card h-100">
-                      <div class="card-body">
-                        <h5 class="card-title"><i class="fas fa-balance-scale text-primary me-2"></i>Value Encoding Analysis</h5>
-                        <p class="card-text">Identifies gaps between stated values (from formal sources) and enacted values (observed in practice), highlighting where intent and reality diverge.</p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-md-6 mb-4">
-                    <div class="card h-100">
-                      <div class="card-body">
-                        <h5 class="card-title"><i class="fas fa-cogs text-primary me-2"></i>Four-Layer Framework</h5>
-                        <p class="card-text">Applies systematic analysis across Values, Meta-Systemic, Implementation, and Interface layers to trace value drift and distortion.</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+              <p>Today we're looking at another demonstrator: the Systems Values Analysis Tool. This ambitious tool aims to examine what systems claim their values to be and compares it to what they actually deliver. It's a useful way to do a quick critique of a system or institution, particularly to assess the stress points that have been raised by the public.</p>
 
-            <!-- Analysis Framework Section -->
-            <div class="row mb-5">
-              <div class="col-lg-12">
-                <h3 class="mb-4">Analysis Framework</h3>
-                <p class="lead mb-4">The System Values Analysis Tool uses a structured seven-phase approach to comprehensively analyse systems and their value alignment.</p>
-                
-                <!-- Analysis Phases -->
-                <div class="card mb-3">
-                  <div class="card-header">
-                    <h5 class="mb-0">
-                      <button class="btn btn-link text-start w-100 p-0" type="button" data-bs-toggle="collapse" data-bs-target="#analysisPhases" aria-expanded="false" aria-controls="analysisPhases">
-                        <div class="d-flex justify-content-between align-items-center">
-                          <div class="d-flex align-items-center flex-grow-1">
-                            <i class="fas fa-list-ol text-primary me-3 fs-4"></i>
-                            <div class="flex-grow-1">
-                              <div class="d-flex justify-content-between align-items-center">
-                                <span class="fs-5 fw-bold text-warning">Seven-Phase Analysis Process</span>
-                                <span class="fs-6 text-dark text-end">Comprehensive system analysis methodology</span>
-                              </div>
-                            </div>
-                          </div>
-                          <i class="fas fa-chevron-down fs-5 ms-3"></i>
-                        </div>
-                      </button>
-                    </h5>
-                  </div>
-                  <div id="analysisPhases" class="collapse">
-                    <div class="card-body">
-                      <h6><strong>Analysis Phases</strong></h6>
-                      <ol>
-                        <li><strong>Phase 0 - Scope</strong><br>
-                        Define system name, jurisdiction, boundaries, timeframe, and sub-system focus.</li>
-                        <li><strong>Phase 1 - System Grounding</strong><br>
-                        Research governance, structure, core functions, funding, oversight bodies, and recent developments.</li>
-                        <li><strong>Phase 2 - Narrative Mapping</strong><br>
-                        Analyse dominant narratives, metaphors, narrative carriers, tone, and positioning in public discourse.</li>
-                        <li><strong>Phase 3 - Value Encoding & Drift</strong><br>
-                        Compare stated values (formal sources) with enacted values (observed practice) to identify gaps.</li>
-                        <li><strong>Phase 4 - Four-Layer Framework</strong><br>
-                        Apply systematic analysis across Values, Meta-Systemic, Implementation, and Interface layers.</li>
-                        <li><strong>Phase 5 - Alignment Diagnosis</strong><br>
-                        Identify key misalignments and propose speculative interventions (policy and AI-enabled).</li>
-                        <li><strong>Phase 6 - Four A's Synthesis</strong><br>
-                        Apply Authorship, Articulation, Alignment, and Adaptation analysis.</li>
-                        <li><strong>Phase 7 - Summary</strong><br>
-                        Provide free text analysis of findings and recommendations.</li>
-                      </ol>
+              <figure>
+              <img src="./assets/img/systems_of_value_blog/system_values_analysis_tool.jpg" alt="Figuring out whether a system is aligned to its stated values can be a challenge">
+              <figcaption>Figuring out whether a system is aligned to its stated values can be a challenge. Image generated by Chat GPT.</figcaption>
+              </figure>
+
+              <p>It's the last of the three custom GPTs, along with the Terms of Service Evaluator and Narrative Values Extractor, that I'll be writing about in this series. These simple demonstration GPTs wrangle the logic of some of the tools I've built at home into something that can be easily accessed by the public. But they are limited, as simple prompt-driven one-shot analysis tools that don't have the validation steps that I'd like in something more robust. This tool stretches to its limits what I can do to extract values signals with a custom GPT. I've taken as many of the frameworks and theory from this series as I can in one process.</p>
+
+              <p>This isn't just another policy critique tool: it's a diagnostic tool that reveals where and how a system's stated purpose diverges from what it actually does. It then makes that analysis actionable by identifying specific intervention points. Unlike policy tools it's not aiming to see whether institutions are abiding by regulations or whether policy is effective at achieving goals. It's going deeper, to the values that inform those goals, to diagnose where the values may have been lost in translation.</p>
+
+              <h2>How it works</h2>
+
+              <p>This custom GPT needs to be used in thinking mode. You may need to use the browser version of Chat GPT, it can be hard to choose model using the phone app.</p>
+
+              <p>The process is as follows:</p>
+              <ol>
+                <li>The user inputs a system and an aspect of the system that it wants to analyse. This specific focus is important; these systems are often massive and the LLM can drift to whatever first catches its attention if not instructed properly.</li>
+                <li>Phase 0 (Scope): The tool sets the boundaries of the analysis.</li>
+                <li>Phase 1 (Grounding): The tool performs research through a web search to identify information relevant to the request.</li>
+                <li>Phase 2 (Narrative Mapping): The tool extracts the dominant narrative, common metaphors and frames, narrative carriers, and tone and positioning.</li>
+                <li>Phase 3 (Values encoding and drift): The tool examines the system's stated values and enacted values before identifying drift between the two.</li>
+                <li>Phase 4 (Four-Layer Framework Application): The tool examines the system using the Four-Layer Framework, looking at the values layer, meta-systemic layer, implementation layer, and Interface layer.</li>
+                <li>Phase 5 (Alignment Diagnosis and Interventions): The tool identifies key misalignments and proposes interventions in the system that would improve alignment.</li>
+                <li>Phase 6 (Four A's Synthesis): The tool examines the values embedded in the system by looking at Authorship, Articulation, Alignment, and Adaptation.</li>
+                <li>Phase 7 (Summary): The tool produces a paragraph summarising the findings of the analysis.</li>
+              </ol>
+
+              <p>The results are output as a narrative report in Chat GPT.</p>
+
+              <h2>Limitations</h2>
+
+              <p>This is necessarily a one-shot analysis of a complex system. It works well but should not be considered authoritative. While LLMs can hold a lot of context at once, the grounding is shallow and limited by the attention that it can provide to the task. It seems like the loudest narratives in the media and the official sources are the ones that come through the search results. This is a bias in the way all web search is performed, it is difficult to overcome without more robust collection methods.</p>
+
+              <p>Its proposed interventions can be hit and miss. Well, mostly miss. LLMs are like idealistic teenagers who just happen to have read ever book ever written. The cheerful optimism is nice but we should probably leave policy proposals to the humans who have to live with them. They do work as good prompts for future thought, particularly on the occasions where they come up with ideas I would never have thought of myself.</p>
+
+              <p>It's also important to note that the entire process is designed to look for misalignment between stated values and behaviours. This is an intentional bias. The things that are working well in a system aren't likely to make the news. It means that the LLM will look for misalignments and may amplify them in its analysis. It's worth remembering that most systems achieve their goals effectively most of the time. But some misalignment is inevitable, that is what this tool is trying to highlight.</p>
+
+              <h2>Using the tool</h2>
+
+              <p>A reminder: you'll need to use thinking mode for this one.</p>
+
+              <p>Click on <a href="https://chatgpt.com/g/g-689bde3e0a9c81918f8f52d6861b1747-system-values-analysis-tool">this link</a> to access the tool.</p>
+
+              <p>I've provided a few candidate Australian systems that I've tested which work well. They get a lot of coverage in the media so are rich with values language.</p>
+              <ul>
+                <li>Child Protection System (Australia) focussing on indigenous child removals</li>
+                <li>NDIS (National Disability Insurance Scheme) focussing on participant autonomy and administrative control</li>
+                <li>Youth Justice System (Victoria) focussing on incarceration of children</li>
+                <li>Australia's Climate Policy System focussing on fossil-fuel approvals under net-zero commitments</li>
+                <li>Welfare Compliance System (Centrelink / Services Australia) focussing on automation and the Robodebt legacy</li>
+              </ul>
+
+              <p>I've avoided any corporate institutions in the examples but they work just as well.</p>
+
+              <p>The writeup of the tool is available on <a href="https://brendonhawkins.com/system-values-analysis-tool.html">my website</a>.</p>
+
+              <h2>Final thoughts</h2>
+
+              <p>If you treat this tool as a good first pass for future research, it works well enough. My aim was to demonstrate that an LLM can look at a system, extract the stated values that it's meant to be aligned with, and then compare those values to how it's performing. It does that at least. And it's a different lens from how we often look at the performance of our systems.</p>
+
+              <p>This custom GPT, with its multiple phases, is really a bunch of different tools taped together. To develop it out further will be a lot of work, but I am looking at the individual elements as part of a bigger ecosystem. At the very least I need something that does: comprehensive grounding; effective values extraction into a more formal specification; a more complete survey of sentiment towards the values of system behaviours; and, more rigorous analysis of the gap between stated values and what a system actually does. Like everything, it's a work in progress.</p>
+
+              <p>This post was two weeks after the last one, I am slowing down a bit. I spent the last fortnight writing training courses and will have more on my plate going forward, so I'll likely drop my tempo to one post a fortnight. Next will be Adaptation, the final of the 4As, before I start to demonstrate more of the heavier, code-based tools. Chat soon.</p>
+            </article>
+
+            <!-- Author and Share Section -->
+            <div class="mt-5 pt-4 border-top">
+              <div class="row">
+                <div class="col-md-6 mb-4 mb-md-0">
+                  <div class="d-flex align-items-center">
+                    <img src="./assets/img/square/brendon.jpg" alt="Brendon Hawkins" class="avatar avatar-lg shadow me-3">
+                    <div>
+                      <h6 class="mb-0">Brendon Hawkins</h6>
+                      <p class="text-sm text-muted mb-0">Intelligence professional exploring systems, values, and AI</p>
                     </div>
                   </div>
                 </div>
-
-                <!-- Four A's Framework -->
-                <div class="card mb-3">
-                  <div class="card-header">
-                    <h5 class="mb-0">
-                      <button class="btn btn-link text-start w-100 p-0" type="button" data-bs-toggle="collapse" data-bs-target="#fourAs" aria-expanded="false" aria-controls="fourAs">
-                        <div class="d-flex justify-content-between align-items-center">
-                          <div class="d-flex align-items-center flex-grow-1">
-                            <i class="fas fa-layer-group text-primary me-3 fs-4"></i>
-                            <div class="flex-grow-1">
-                              <div class="d-flex justify-content-between align-items-center">
-                                <span class="fs-5 fw-bold text-warning">Four A's Framework</span>
-                                <span class="fs-6 text-dark text-end">Authorship, Articulation, Alignment, Adaptation</span>
-                              </div>
-                            </div>
-                          </div>
-                          <i class="fas fa-chevron-down fs-5 ms-3"></i>
-                        </div>
-                      </button>
-                    </h5>
-                  </div>
-                  <div id="fourAs" class="collapse">
-                    <div class="card-body">
-                      <h6><strong>Core Principle</strong></h6>
-                      <p>The Four A's framework provides systematic analysis of how values are created, expressed, implemented, and adapted within systems.</p>
-                      
-                      <h6><strong>Framework Components</strong></h6>
-                      <ol>
-                        <li><strong>Authorship</strong><br>
-                        Who creates and controls the values and direction of the system? Analyses primary authors, decision-making structures, public influence, and transparency.</li>
-                        <li><strong>Articulation</strong><br>
-                        How clearly and consistently are the system's values expressed? Examines formal and cultural expression, coherence across levels, and communication channels.</li>
-                        <li><strong>Alignment</strong><br>
-                        To what extent do the system's operations match its articulated values? Identifies adherence, misalignment, drivers, and consequences.</li>
-                        <li><strong>Adaptation</strong><br>
-                        How effectively can the system respond to change or correct misalignment? Analyses mechanisms for change, speed, flexibility, and barriers.</li>
-                      </ol>
-                    </div>
-                  </div>
-                </div>
-
-                <!-- Four-Layer Framework -->
-                <div class="card mb-3">
-                  <div class="card-header">
-                    <h5 class="mb-0">
-                      <button class="btn btn-link text-start w-100 p-0" type="button" data-bs-toggle="collapse" data-bs-target="#fourLayers" aria-expanded="false" aria-controls="fourLayers">
-                        <div class="d-flex justify-content-between align-items-center">
-                          <div class="d-flex align-items-center flex-grow-1">
-                            <i class="fas fa-sitemap text-primary me-3 fs-4"></i>
-                            <div class="flex-grow-1">
-                              <div class="d-flex justify-content-between align-items-center">
-                                <span class="fs-5 fw-bold text-warning">Four-Layer Framework</span>
-                                <span class="fs-6 text-dark text-end">Values, Meta-Systemic, Implementation, Interface</span>
-                              </div>
-                            </div>
-                          </div>
-                          <i class="fas fa-chevron-down fs-5 ms-3"></i>
-                        </div>
-                      </button>
-                    </h5>
-                  </div>
-                  <div id="fourLayers" class="collapse">
-                    <div class="card-body">
-                      <h6><strong>Core Principle</strong></h6>
-                      <p>The Four-Layer Framework traces how human values travel from culture to code, identifying where they distort, drift, or disappear at each layer.</p>
-                      
-                      <h6><strong>Framework Layers</strong></h6>
-                      <ol>
-                        <li><strong>Values Layer</strong><br>
-                        Shared moral principles, norms, and intuitions within a culture or community. Values act as "relational attractors" in our mental map.</li>
-                        <li><strong>Meta-Systemic Layer</strong><br>
-                        The "operating system" of society - laws, constitutions, treaties, financial frameworks that formalise values into enforceable logic.</li>
-                        <li><strong>Implementation Layer</strong><br>
-                        Institutions, organisations, and role-based actors that execute the meta-systemic rules in practice.</li>
-                        <li><strong>Interface Layer</strong><br>
-                        The point of contact between the system and humans (or between systems). Where decisions, services, and communications are delivered.</li>
-                      </ol>
-                      <p><strong>Cross-Layer Concern - Value Drift:</strong> At every step from values → meta-systems → implementation → interface, values can be preserved, distorted, or omitted entirely.</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <!-- Technical Details -->
-            <div class="row mb-5">
-              <div class="col-lg-12">
-                <h3 class="mb-4">Technical Implementation</h3>
-                <div class="card">
-                  <div class="card-body">
-                    <h5 class="card-title">How Version 1 Works</h5>
-                    <p>The System Values Analysis Tool Version 1 is a proof-of-concept AI tool built using ChatGPT's custom GPT functionality. Here's how it operates:</p>
-                    
-                    <div class="row mb-4">
-                      <div class="col-md-6">
-                        <h6><i class="fas fa-file-import text-primary me-2"></i>Input Processing</h6>
-                        <ul class="list-unstyled">
-                          <li>• Accepts clear system descriptions from users</li>
-                          <li>• Allows optional sub-system focus areas</li>
-                          <li>• Works best with thinking models and conceptual systems</li>
-                        </ul>
-                      </div>
-                      <div class="col-md-6">
-                        <h6><i class="fas fa-search text-primary me-2"></i>Research Phase</h6>
-                        <ul class="list-unstyled">
-                          <li>• Performs internet searches for relevant information</li>
-                          <li>• Gathers factual baseline data about the system</li>
-                          <li>• Identifies governance structures and recent developments</li>
-                        </ul>
-                      </div>
-                    </div>
-
-                    <div class="row mb-4">
-                      <div class="col-md-6">
-                        <h6><i class="fas fa-chart-line text-primary me-2"></i>Analysis Framework</h6>
-                        <ul class="list-unstyled">
-                          <li>• Applies seven-phase analysis methodology</li>
-                          <li>• Uses Four A's and Four-Layer frameworks</li>
-                          <li>• Identifies value drift and misalignment</li>
-                        </ul>
-                      </div>
-                      <div class="col-md-6">
-                        <h6><i class="fas fa-file-alt text-primary me-2"></i>Output Generation</h6>
-                        <ul class="list-unstyled">
-                          <li>• Produces structured analysis reports</li>
-                          <li>• Provides alignment diagnosis and interventions</li>
-                          <li>• Offers actionable recommendations for improvement</li>
-                        </ul>
-                      </div>
-                    </div>
-
-                    <div class="alert alert-info">
-                      <h6><i class="fas fa-info-circle me-2"></i>Version 1 Limitations</h6>
-                      <p class="mb-0">This is a work-in-progress proof-of-concept demonstration. The tool works best with thinking models and conceptual systems. It's designed for analytical purposes and should be treated as a framework for understanding system value alignment rather than definitive analysis.</p>
-                    </div>
-
-                    <p class="mt-3"><strong>Status:</strong> <span class="badge bg-warning">Work in Progress</span> <strong>Version:</strong> <span class="badge bg-info">1.0</span></p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <!-- Related Content -->
-            <div class="row mb-5">
-              <div class="col-lg-12">
-                <h3 class="mb-4">Related Content</h3>
-                <div class="row">
-                  <div class="col-md-6 mb-3">
-                    <div class="card">
-                      <div class="card-body">
-                        <h6 class="card-title">Systems of Value Blog</h6>
-                        <p class="card-text">Read more about system analysis and value alignment in the Systems of Value Substack.</p>
-                        <a href="https://brendonhawkins.substack.com/" class="btn btn-sm btn-outline-primary" target="_blank">Visit Substack</a>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-md-6 mb-3">
-                    <div class="card">
-                      <div class="card-body">
-                        <h6 class="card-title">Back to Projects</h6>
-                        <p class="card-text">Return to the main projects page to explore other tools and frameworks.</p>
-                        <a href="projects.html" class="btn btn-sm btn-outline-primary">View All Projects</a>
-                      </div>
-                    </div>
+                <div class="col-md-6 text-md-end">
+                  <p class="text-sm text-muted mb-2">Share this post</p>
+                  <div>
+                    <a href="https://brendonhawkins.substack.com/p/system-values-analysis-tool" class="btn btn-sm btn-outline-primary me-2" target="_blank">
+                      <i class="fas fa-external-link-alt me-1"></i>Read on Substack
+                    </a>
                   </div>
                 </div>
               </div>
@@ -401,6 +321,7 @@
         </div>
       </div>
     </section>
+    <!-- End Blog Post Content Section -->
 
   </main>
   <!-- End Main Content Area -->
