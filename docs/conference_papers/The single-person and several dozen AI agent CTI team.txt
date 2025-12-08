@@ -1,0 +1,318 @@
+*Slide Number:* 1
+*Slide Title:* The single-person (and several dozen AI agent) CTI team
+*Summary:*Title slide
+*Slide Text:* 
+Brendon Hawkins
+IndependINT
+
+*Slide Number: * 2
+*Slide Title: * What we’ll be covering today
+*Summary: * Describes the content covered in the presentation and a summary of the experience of the presenter.
+*Slide Text: *
+1. We’ll examine what AI agents are and how they can be used to augment cyber threat intelligence capabilities.
+2. I’ll run you through some practical examples of using AI workflows from some of my own work. 
+3. We’ll bed down some of the principles of what works when building AI tools for threat intelligence. 
+4. I’ll discuss the potential applications of combining intelligence tradecraft with AI to build knowledge about the world.
+I’m a senior intelligence professional with over 20 years of experience across Defence, NIC, policing, and corporate intelligence functions. My intelligence-related interests include intelligence training, prototyping tools, and experimenting with new processes.
+
+*Slide Number: * 3
+*Slide Title: * The state of CTI in Australia
+*Summary: * Examines the current state of cyber threat intelligence in Australia and the limitations of organisations, particularly with regard to FTE and broad remit.
+*Slide Text: *
+Most organisations in Australia don’t have a dedicated Cyber Threat Intelligence team. When they do, it’s often a single analyst, typically juggling multiple roles. 
+Some organisations outsource CTI, which can work, but might miss out on internal context. 
+FTE growth is a challenge, particularly when there are other security needs. Australia’s CTI workforce is also small and specialised, meaning hiring expert staff is difficult and expensive. 
+The question for us today: how can we use AI to augment CTI capabilities in Australian organisations.
+I’ve been looking at this in my spare time for the past few years and have built some use cases which I’d like to share with you all.
+
+*Slide Number: * 4
+*Slide Title: * There will be three main functions of a CTI analyst as AI matures:
+*Summary: * Looks at roles that will be resistant to job losses caused by AI in the future. The speaker talks about how highly specialised analyst roles, individuals tasked with communicating intelligence to leaders, and managers of intelligence capabilities will likely be core human functions. The speaker suggests that it’s junior roles that will be replaced first and notes the requirement to build a pipeline to train junior analysts.
+*Slide Text: *
+Specialist Analysts
+Intelligence Communicator
+Intelligence Manager
+How do we build the skills pipeline for junior analysts?
+
+*Slide Number: * 5
+*Slide Title: * The tech team
+*Summary: * The presenter summarises the software used for the tools demonstrated in this presentation. He also highlights his strengths and limitations in performing this kind of work.
+*Slide Text: *
+I use a range of commercial and open-source tools when building my experiments. These include Telegram, Gemini, Chat GPT, Python, PostgreSQL, Scikit Learn, Claude, Cursor, and Spacy.
+As for the human member:
+	I am very experienced with intelligence process
+	I’ve worked across the full intelligence cycle
+	I’ve worked across a range of targets
+	I can code (Python), build databases, use APIs
+	I am very comfortable with data analysis
+	I have someone to build infrastructure for me
+×	I am not a software engineer
+×	I’m an intelligence expert, not an AI expert
+×	I am not a data scientist
+×	Don’t ask me to design a front end…
+
+*Slide Number: * 6
+*Slide Title: * What are AI Agents?
+*Summary: * Provides a brief definition of AI agents for a broad non-technical audience.
+*Slide Text: *
+An agent is someone or something that acts on your behalf.
+AI agents are software systems that can act independently to complete tasks for you.
+In intelligence, AI agents can collect data, summarise reports, tag threats, and even draft assessments.
+AI agents are becoming more autonomous, chaining tasks together and even collaborating with other agents.
+AI agents aren’t analysts. They are highly efficient digital workers. They handle volume and speed, but only humans bring context, ethics, and responsibility.
+
+*Slide Number: * 7
+*Slide Title: * Working with the limitations
+*Summary: * Acknowledges that LLMs are effective when doing certain tasks like summarising and triaging at speed. The presenter asserts that the best way of keeping them focussed is to use robust intelligence requirements.
+*Slide Text: *
+LLMs are fantastic for summarising, translating, triaging information, and speed
+LLMs are less effective for analysis*, long reports, referencing, and remembering.
+Where I have had most success is in keeping AI focused on tasks by using robust intelligence requirements. 
+Then you need to understand your own intelligence processes and break them down into manageable chunks.
+LLMs, like human analysts, make mistakes. But good process can minimise these.
+AI is faster if you can tell it what you need.
+
+*Slide Number: * 8
+*Slide Title: * The Intelligence Cycle 
+*Summary: * The presenter gives an overview of the intelligence cycle for non-intelligence professionals. He suggests that the structured, systematic approach of intelligence is well suited for building AI agents as they perform specific tasks.
+*Slide Text: *
+Intelligence is an ancient profession. But it was only systemised during the 20th century. In the western military context, it was structured using the intelligence cycle.
+The intelligence cycle is a simplified framework for the activity of intelligence. Each part of the cycle traditionally uses specialised professionals to perform their part.
+It’s the same with AI agents in intelligence – they should be specialised to perform their role in the intelligence cycle.
+
+*Slide Number: * 9
+*Slide Title: * Refining intelligence requirements
+*Summary: * The presenter demonstrates using LLMs in voice mode to refine intelligence requirements for the audience. He gives an overview of the challenges of defining requirements over a large user base with a small intelligence staff.
+*Slide Text: *
+Intelligence teams service a range of business areas. They need to engage with stakeholders and bring the results together to generate perfect information needs!
+A challenge for any intelligence function is that they are servicing a range of stakeholders. AI can be used to help refine requirements and make sure that the right intelligence is reaching the parts of the business that need it.
+The QR code below links to a custom GPT which interviews a cyber security stakeholder from the company TelcoTechCom to determine how their needs align to intelligence requirements. 
+Scan it, open the web page, and  have a go at using it after the presentation. It works best with voice mode.
+
+*Slide Number: * 10
+*Slide Title: * Collection: Survey tool
+*Summary: * The presenter displays a workflow of a collection survey tool that takes a collection channel under a supervising agent, then collects data, triages against requirements, generates information reports, uploads the entities into a knowledge graph, and performs statistical analysis. It then assesses it for timeliness, accuracy, relevance, and uniqueness, before recommending sustained tasking or not of interest.
+*Slide Text: * [nil]
+
+*Slide Number: * 11
+*Slide Title: * Processing
+*Summary: * Focusses on a strength of LLMs, taking unstructured data and transforming it into structured information. It provides three examples
+*Slide Text: *
+The real strengths of AI is in the processing phase of the intelligence cycle. These strengths include:
+•	Translating.
+•	Surfacing priority information.
+•	Formatting unstructured data.
+•	Working fast with good accuracy.
+To get the most out of AI for processing, you need a well-managed intelligence function:
+•	A comprehensive set of intelligence requirements.
+•	Good collection management.
+•	A flexible data processing environment.
+•	A work environment that encourages the use of AI.
+Most of these are simple LLM, ML, or statistical workflows 
+Three examples:
+•	Capturing Threat Actor Knowledge [Report -> STIX Formatter -> TIP]
+•	Clustering Articles [News aggregator -> NLP Clustering Summarising -> Summary Report]
+•	Triage Vulnerabilities [Alert -> Tech Stack Email Composer -> Formatted Email]
+
+*Slide Number: * 12
+*Slide Title: * Writing information reports
+*Summary: * The presenter guides the audience through the process of taking raw intelligence collect, using LLMs to triage, summarise, generate metadata, produce a report, and database.
+*Slide Text: *
+The activity best suited to the capabilities of LLMs is generating information reports from unanalysed collected information. Asking an LLM to summarise a piece of information in a standard, repeatable way is well within its abilities, particularly when providing it with a good understanding of the context.
+•	Take a social media post.
+•	Check against intelligence requirements.
+•	Pass to an LLM to summarise content and generate data.
+•	Produce an information report and data.
+•	Push to a database.
+I’ve had a lot of success producing information reports from Telegram posts. The target sets that I’ve focused on are Hacktivists, the Russia-Ukraine War, and Right-Wing Extremism. 
+
+*Slide Number: * 13
+*Slide Title: * Hacktivism
+*Summary: * The presenter provides an example of an information report produced about the Black Security Team group.
+*Slide Text: *
+}
+   "cid": "CTI-TGM-1132964271-13567-20231204220140",
+   "requirement_id": ["CTI-1.3.1", "CTI-1.3.3"], 
+   "information_report": "On 04 December 2023 at 22:01:40, the Telegram channel 'Black Security Team' posted a message by 'Tencher Scott' announcing a free cybersecurity course focused on SQL Injection vulnerabilities and countermeasures. The post explains that SQL Injection occurs when a backend developer fails to implement proper filtering while executing database queries. The message includes a link to the course hosted on 'BlackSecurityTeam.com' and promotes it as a comprehensive web security training. An attached promotional image indicates that the course instructor is 'Mehdi Hassani' from the Black Security Team. The post also provides Telegram and website links for further engagement.", 
+   "analyst_comment": "This post promotes cybersecurity training with a focus on SQL Injection, a widely exploited web application vulnerability. While the course appears to be for educational and defensive purposes, similar materials can be leveraged for offensive security and penetration testing. The presence of a dedicated cybersecurity community and training website suggests an organised effort to spread cybersecurity knowledge, potentially attracting both security professionals and individuals with malicious intent.", 
+   "languages": ["Persian", "English"], 
+   "entities": [ 
+	"04 December 2023 (DATE)", 
+	"22:01:40 (TIME)", 
+	"Black Security Team (ORG)", 
+	"Tencher Scott (PERSON)", 
+	"Mehdi Hassani (PERSON)", 
+	"SQL Injection (TECHNIQUE)", 
+	"BlackSecurityTeam.com (DOMAIN)", 
+	"T.me/Black_Security (ORG)" 
+	] 
+}
+
+*Slide Number: * 14
+*Slide Title: * Hacktivism
+*Summary: * The presenter provides an example of an information report produced about NoName057.
+*Slide Text: *
+{
+   "cid": "CTI-TGM-1732250465-5429-20231209030235",
+   "requirement_id": ["CTI-1.1.1", "CTI-2.2.1", "CTI-2.2.2"], 
+   "information_report": "On 9 December 2023, NoName057(16) posted an image on their Telegram channel, showing website outage messages for multiple entities. The image indicated denial of service attacks targeting websites related to the government and financial sector in Bulgaria, as well as transportation services in Norway and the United Kingdom. The affected sites included: the Bulgarian government portal (government.bg), the Bulgarian Customs Agency application access portal (testiam-ids.ext.customs.bg), DSK Bank in Bulgaria (dskbank.bg), the Norwegian railway ticketing service (ruter.no), and the UK Swift transport card service (swiftcard.org.uk). The image displayed error messages in Russian stating 'Unable to access site' and 'Connection timed out'. This image was published alongside a text post discussing external media protection.",
+   "analyst_comment": "This image is highly likely part of NoName057(16)'s ongoing pro-Russian politically motivated DDoS campaign. The selection of targets aligns with previous campaigns, focusing on entities in countries supporting Ukraine. The image serves as visual 'proof of success' for the group's attacks, aimed at bolstering credibility within their support base.", 
+   "languages": "Russian", 
+   "entities": [
+	"9 December 2023 (DATE)", 
+	"NoName057(16) (ORG)", 
+	"Bulgaria (GPE)", 
+	"Norway (GPE)", 
+	"United Kingdom (GPE)", 
+	"Bulgarian Government Portal (ORG)", 
+	"Bulgarian Customs Agency (ORG)", 
+	"DSK Bank (ORG)", 
+	"Norwegian Railway Ticketing Service (ORG)", 
+	"Swift Transport Card Service (ORG)", 
+	"government.bg (URL)", 
+	"testiam-ids.ext.customs.bg (URL)", 
+	"dskbank.bg (URL)", 
+	"ruter.no (URL)", 
+	]
+}
+
+*Slide Number: * 15
+*Slide Title: * Hacktivism
+*Summary: * The presenter provides an example of an information report produced about IT Army of Ukraine.
+*Slide Text: *
+{
+   "cid": "CTI-TGM-1601423054-1828-20231204203150",
+   "requirement_id": ["CTI-1.1.1", "CTI-2.1.3", "CTI-2.3.1", "CTI-2.3.2"], 
+   "information_report": "On 4 December 2023 at 20:31, the IT ARMY of Ukraine posted on their Telegram channel providing an update on operational leaders for week 48. The post identified four individuals or teams leading in the use of different cyber tools during the week. DTS led in the use of 'db1000n', generating 28.2 TB of traffic. UkrByte led operations using the 'Distress' tool, generating 1,041.6 TB of traffic. Littlest_giant led in the use of 'Mhddos', contributing 482.6 TB of traffic. Uashield21 led in 'X100' operations, producing 358.2 TB of traffic. The post highlighted that each of these leaders and tools played a key role in the group's collective efforts.",
+   "analyst_comment": "This post is almost certainly related to ongoing distributed denial of service (DDoS) campaigns conducted by the IT ARMY of Ukraine against Russian or Russian-affiliated targets. The naming of specific tools (db1000n, Distress, Mhddos, X100) aligns with known tools used in crowdsourced DDoS attacks. The identification of operational leaders is likely intended to both motivate participants and publicly demonstrate the IT ARMY’s continued activity and effectiveness. The use of both Ukrainian and English text indicates the message was intended for both domestic and international audiences.”,
+   "languages": ["Ukrainian", "English"], 
+   "entities": [
+	"4 December 2023 (DATE)", 
+	"20:31 (TIME)", 
+	"IT ARMY of Ukraine (ORG)", 
+	"Telegram (ORG)", 
+	"DTS (PERSON)", 
+	"UkrByte (PERSON)", 
+	"Littlest_giant (PERSON)", 
+	"Uashield21 (PERSON) ", 
+	"db1000n (PRODUCT) ", 
+	"Distress (PRODUCT)", 
+	"Mhddos (PRODUCT)", 
+	"X100 (PRODUCT)"
+	]
+}
+
+*Slide Number: * 16
+*Slide Title: * Russia-Ukraine War
+*Summary: * The presenter provides an example of an information report produced about Ukraine’s 3rd Separate Assault Brigade.
+*Slide Text: *
+{
+    "cid":, “RUK-TGM-1639691719-003203-20231001173007“,
+    "requirement_id": ["RUK-6.1.2"],
+    "information_report": "On 01 October 2023 at 17:30 UTC, the 3rd Separate Assault Brigade (3 ОШБр) posted a message on their Telegram channel celebrating Defender of Ukraine Day. The post states that the brigade is marking the occasion while deployed on the frontlines, emphasizing their commitment to defending Ukraine, their homeland, and its future. It references fallen comrades and inherited bravery from ancestors, stating that retreat or weakness is not an option. The brigade extends greetings to all Ukrainian servicemen and women in honor of the national holiday. The message includes links to the brigade’s social media and support channels, including Telegram, Instagram, Facebook, YouTube, and TikTok.",
+    "analyst_comment": "This post follows a common Ukrainian military narrative, reinforcing themes of resilience, sacrifice, and national unity. The invocation of fallen comrades and ancestral bravery aims to boost morale and frame continued combat as an honorable duty. The inclusion of multiple social media links suggests an organized effort to increase public engagement and support. The mention of the national holiday ties the post to broader Ukrainian state messaging, which often emphasizes the military’s role in national survival. The SupportAZOV link may indicate ties to the broader nationalist military movement, a common theme in some Ukrainian units' outreach efforts.",
+    "languages": ["Ukrainian"],
+    "entities": [
+    	"01 October 2023 (DATE)",
+	"17:30 UTC (TIME)",
+	"3rd Separate Assault Brigade (ORG)",
+	"Ukraine (GPE)",
+	"Defender of Ukraine Day (EVENT)",
+	"Telegram (ORG)",
+	"Instagram (ORG)",
+	"Facebook (ORG)",
+	"YouTube (ORG)",
+	"TikTok (ORG)",
+"SupportAZOV (ORG)"
+    ]
+}
+
+*Slide Number: * 17
+*Slide Title: * Nil
+*Summary: * This slide is an AI generated comic about an intelligence analyst producing a report. It goes through their process: tasking, research, planning, production, editing, and dissemination. The presenter explains that parts of this process can be replicated with LLMs. 
+*Slide Text: * [nil]
+
+*Slide Number: * 18
+*Slide Title: * Writing longer intelligence reports with AI
+*Summary: * The presenter explains the challenges in using LLMs to write longer intelligence reports. 
+*Slide Text: *
+There are significant challenges in getting LLMs to write longer intelligence reports:
+•	Replicating the full process that experienced analysts use.
+•	Asking an LLM to extract the most important points from a corpus.
+•	Problems with context windows and hallucination (particularly at +80%).
+•	Capturing expert target knowledge.
+•	Referencing intelligence source information in a reliable way.
+•	Effectively assessing information.
+The best solution at this stage is AI-assisted intelligence production
+
+*Slide Number: * 19
+*Slide Title: * An example workflow for intelligence reports
+*Summary: * This slide shows a multi-agent workflow for intelligence report production. It moves through tasking and problem deconstruction, establishing key points, writing the report body, writing the assessment, editing, and the human-in-the-loop checkpoints.
+*Slide Text: *
+Each AI icon is a multi-agent process.
+AI does the heavy lifting, but humans own the judgment and the meaning.
+
+*Slide Number: * 20
+*Slide Title: * Trying this workflow
+*Summary: * A presentation of a report prompt and Python script running through a multi-agent workflow. 
+*Slide Text: *
+I decided to have a go at building out this workflow using some old scripts and Cursor + Claude 3.7.
+Writing* the code took about half an hour. The report used Gemini 1.5 Pro, took three minutes and cost $3.72.
+Some issues with the report:
+•	Shorter than I would like.
+•	Paragraphs don’t go into enough detail.
+•	Some issues with the referencing.
+•	It’s clearly missed some attacks and countries.
+•	I didn’t sense check along the way.
+•	It didn’t have to generate the query.
+Still, it produced something that is consistent with my understanding faster than any analyst could over that much data. I wouldn’t normally do this in one pass.
+
+*Slide Number: * 21
+*Slide Title: * CARR Cyber Group: Expanding Targeting and Evolving Capabilities
+*Summary: * This slide is the output of the AI generated report writing.
+*Slide Text: *
+TITLE: CARR Cyber Group: Expanding Targeting and Evolving Capabilities
+EXECUTIVE SUMMARY:
+CARR, a suspected Russian state-influenced cyber group, has broadened its targeting from Ukrainian entities to include nations providing aid to Ukraine, indicating an escalation in geopolitical alignment.  The group primarily uses publicly available website vulnerability scanning tools to identify targets. While CARR has expressed intent to target US critical infrastructure, it currently lacks the demonstrated capability to pose a significant threat.  CARR's organizational structure appears fluid, potentially hampered by internal conflict and marked by fluctuating collaborations with other pro-Russian cyber groups.
+ASSESSMENT:
+CARR’s expanded targeting almost certainly reflects increasing alignment with Russian strategic objectives and elevates the risk of wider cyber conflict.  We assess with high confidence that CARR will continue targeting nations supporting Ukraine, likely escalating to more disruptive attacks, particularly against government and infrastructure targets.  CARR may attempt to develop or acquire more sophisticated capabilities, though its current reliance on readily available tools suggests resource limitations.  The fluidity of CARR’s structure makes predicting future behavior challenging; however, continued monitoring of its tactics, techniques, and procedures (TTPs) and affiliations remains critical.
+DETAILED ANALYSIS:
+KEY POINT 1: Expanded Targeting Beyond Ukraine (CTI-3.1, CTI-2.2)
+CARR has expanded its targeting to nations providing military and humanitarian aid to Ukraine, significantly broadening its operational scope.  Initial attacks focused on Ukrainian government and infrastructure, including recruitment centers (CTI-TGM-1781536189-006102). Subsequent targeting of government and aid-related websites in Norway (CTI-TGM-1781536189-006125), Bulgaria (CTI-TGM-1781536189-006165), and Latvia (CTI-TGM-1781536189-006231) suggests an intent to pressure and disrupt Ukraine’s international support network. This geographic expansion increases the risk of broader cyber conflict and necessitates a coordinated international response. This shift likely signifies a transition from patriotically motivated hacktivism to a geopolitically driven campaign aligned with Russian strategic objectives.
+KEY POINT 2: Reliance on Publicly Available Tools (CTI-1.3, CTI-2.3)
+CARR frequently uses publicly available website vulnerability scanning tools, such as check-host.net (CTI-TGM-1781536189-006091, CTI-TGM-1781536189-006137, CTI-TGM-1781536189-006170), indicating a pragmatic but potentially low-sophistication approach. This allows CARR to rapidly identify vulnerabilities without specialized expertise. While this reliance on public resources complicates attribution, it does not preclude the group from possessing or acquiring more advanced capabilities. Continued TTP monitoring is necessary to identify any evolution in sophistication.
+KEY POINT 3: Suspected Russian State Influence (CTI-2.1.1, CTI-3.1.2)
+Several indicators suggest a strong link between CARR and Russian intelligence services, though definitive attribution remains challenging. CARR’s targeting aligns with Russian geopolitical interests, specifically pressuring nations aiding Ukraine (see Key Point 1).  Its rhetoric often mirrors themes in Russian state-sponsored propaganda (CTI-TGM-1781536189-006158, CTI-TGM-1781536189-006220).  An unverified report mentioning potential FSB contracts (CTI-TGM-1781536189-006094) further strengthens this assessment.  While conclusive evidence of direct control is absent, these factors suggest CARR’s operations are likely influenced, if not coordinated with, Russian intelligence objectives, raising concerns about potential escalation and the use of CARR as a proxy force.
+KEY POINT 4:  Threats Against Critical Infrastructure (CTI-1.1.4, CTI-2.2)
+CARR has expressed intent to target US critical infrastructure, including water supply systems and energy companies (CTI-TGM-1781536189-006265, CTI-TGM-1781536189-006428).  However, no confirmed successful attacks causing significant disruption or damage have been observed, suggesting limited capabilities or a prioritization of other targets.  Despite this, CARR’s stated intent necessitates vigilance and proactive defensive measures by potential target organizations.
+KEY POINT 5: Fluid Organizational Structure (CTI-2.4)
+CARR’s organizational structure appears fluid and evolving, potentially marked by internal conflict, shifting allegiances, and varying levels of coordination with other pro-Russian cyber groups, such as 22C (CTI-TGM-1781536189-006256) and NoName057(16) (CTI-TGM-1781536189-006412). Reports indicate internal disputes and shifting allegiances within CARR (CTI-TGM-1781536189-006094, CTI-TGM-1781536189-006882).  Understanding these internal dynamics is crucial for anticipating future actions, but this fluidity complicates predicting behavior and assessing overall capabilities.  Continuous monitoring of CARR's internal and external relationships is necessary to accurately assess the group's evolving threat landscape. 
+
+*Slide Number: * 22
+*Slide Title: * What’s the trick to it all?
+*Summary: * This slide summarises some of the best practice for using artificial intelligence to generate intelligence report. It includes a comic discussion between our intelligence analyst character and an android.
+*Slide Text: *
+It comes down to knowing how intelligence works inside out.
+There are still pieces to the puzzle that I haven’t quite figured out, particularly around the assessment of the reliability and accuracy of the information.
+But if you can critically assess your own processes, break them up into meaningful chunks, and produce clear instructions, then you can build an army of AI assistants.
+If I don’t know how to do a task…then how are you going to instruct me to help you?
+If I don’t know my requirements…then how am I going to focus on what you need to know?
+If I don’t have well managed intelligence collection…then how can I find the information I need?
+
+*Slide Number: * 23
+*Slide Title: * Intelligence process + AI to generate knowledge
+*Summary: * The presenter offers his philosophy on how to best approach using AI for generating intelligence reports.
+*Slide Text: *
+We’ve only scratched the surface today, but there is more going on here than just threat intelligence. I’ve applied these principles and processes, in limited ways, to other domains of knowledge.
+It’s more than a workflow; you can use these principles for trustworthy machine-assisted knowledge creation in any domain. 
+•	Start with the Requirement
+•	Follow a Transparent Process
+•	Preserve the Epistemic Trace
+•	Structure the output
+•	Keep human judgment in the loop
+
+*Slide Number: * 24
+*Slide Title: * Do you have any Questions?
+*Summary: * Contact slide.
+*Slide Text: * [nil]
+

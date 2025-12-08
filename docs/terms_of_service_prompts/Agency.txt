@@ -1,0 +1,44 @@
+Agency
+
+Core Principle
+Agency is the capacity to act intentionally and meaningfully within a system. To support agency, systems must enable voluntary participation, informed choice, and reversible decisions.
+Agency is not simply freedom from constraint—it is the presence of coherent, supported options that align with a person’s identity, intentions, and moral compass. Aligned systems must empower users to act with understanding and autonomy, not just navigate constraints.
+
+What This Value Requires of Systems
+1. Voluntary Participation
+o Users should not be coerced or defaulted into participation.
+o Terms and engagement should reflect true choice, not friction-based manipulation.
+2. Informed Choice
+o Options must be clear, contextualized, and comprehensible.
+o Systems should reveal trade-offs and consequences of key decisions.
+3. Reversibility of Decisions
+o People must be able to change their minds. Account deletion, unsubscribing, or withdrawing data should be supported without penalty.
+4. Control Over Scope of Engagement
+o Users should be able to choose what parts of the system they participate in. This includes data sharing, visibility, and algorithmic targeting.
+5. Design Against Manipulation
+o Avoid dark patterns, infinite scrolls, and default options that undermine reflective choice.
+o Surface control options at decision points.
+
+Examples of Alignment
+?? Privacy-Centric Productivity App
+* Offers granular control over features.
+* Makes consent revocable and encourages user education about their settings.
+?? Online Platform with Public Algorithms
+* Discloses how recommendations are made.
+* Allows users to opt in/out of personalization.
+
+Examples of Misalignment
+?? Subscription Platform with Hidden Cancellation
+* Auto-renews with no reminders.
+* Cancellation is intentionally difficult.
+?? Data-Driven App That Requires All-or-Nothing Consent
+* Users can only participate by surrendering full data access.
+* No meaningful toggles or settings.
+?? System That Changes Policies Without Notice
+* Users are bound by updates they aren’t informed about.
+* Removes agency through opaque shifts.
+
+Maturity Model for Alignment
+LevelDescription?? Negligent
+System undermines agency through coercion, opacity, or defaults.?? Compliant
+User control exists but is hard to access or understand. Options are limited or performative.?? RespectfulAgency is supported by opt-ins, clear language, and some reversibility.?? Ethically AlignedSystem invites active participation, education, and meaningful control.?? Agency-CentricDesigned around empowering reflective, informed, reversible human action. System flexes to individual intentions.

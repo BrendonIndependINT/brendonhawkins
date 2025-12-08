@@ -1,0 +1,301 @@
+*Slide Number:* 1
+*Slide Title:* Teaching the intelligence bits of cyber threat intelligence
+*Summary:* Title Slide.
+*Slide Text:*
+Brendon Hawkins
+IndependINT
+
+*Slide Number:* 2
+*Slide Title:* Today’s objectives
+*Summary:* Introduces what will be covered in the conference talk.
+*Slide Text:*
+1. Consider what an intelligence analyst needs to be able to do, focusing on the skills that contribute to intelligence as a discipline.
+2. Consider what an intelligence analyst needs to be able to do, focusing on the skills that contribute to intelligence as a discipline.
+3. Provide a wish list of training I would love to see made available to analysts.
+4. Attempt to justify the investment of time and money needed to uplift the skills of CTI analysts.
+Tell them what you’re going to tell them, tell them, then tell them what you’ve told them.
+My IET instructor
+DFSS-EWW, 2002
+
+*Slide Number:* 3
+*Slide Title:* About me
+*Summary:* Images of various stages of Brendon’s intelligence career.
+*Slide Text:* [nil]
+
+*Slide Number:* 4 
+*Slide Title:* Intelligence analysis at its most basic
+*Summary:* This slide goes through intelligence analysis for an audience which may not have been exposed to intelligence in their roles. The speaker describes intelligence as a type of information or knowledge, which, after being subjected to selection, collection, evaluation, processing, analysis, and finally dissemination, provides insights to decision makers on a matter of national security.
+
+*Slide Text:* 
+Intelligence analysts build an understanding of the enterprise…
+…and use their knowledge about the threat landscape to go looking for relevant  threats.
+They find data, bring it into one place, and evaluate it…
+…before they use their subject matter expertise to perform intelligence analysis.
+The output of this analysis is used to produce intelligence…
+…which is communicated to other parts of the enterprise…
+…to support decision makers.
+For today, I’d like you all to step back and think about Cyber Threat Intelligence (CTI) as an intelligence discipline where the threat actor is targeting an organisation through its IT infrastructure.
+
+*Slide Number:* 5
+*Slide Title:* Nil
+*Summary:* The slide shows scans of the a document from NSA’s Cryptographic Quarterly, titled “Intelligence Analysis: Does NSA Have What It Takes?” It details core abilities, knowledge, characteristics, and skills for intelligence analysts.
+*Slide Text:* [nil]
+
+*Slide Number:* 6
+*Slide Title:* NSA core competencies for intelligence analysis 
+*Summary:* The presenter shows a clearer list of the competencies listed on the previous slide. He points out the variety of competencies required, and highlights that very few of these are technical skills despite signals intelligence being a highly technical intelligence discipline.
+*Slide Text:* 
+The point here is not to focus on the details of a 25-year-old think piece: it’s that when they went through what they needed out of their intelligence analysts, most of it wasn’t technical skills, even at NSA, the most technical intelligence agency.
+
+*Slide Number:* 7
+*Slide Title:* Duties of a CTI analyst
+*Summary:* The presenter highlights the broad range of skills that an intelligence analyst is expected to have in a corporate role, particularly when they are the sole intelligence resource. He explains that it’s unrealistic and that training analysts across all of these skills takes years.
+*Slide Text:* 
+Intelligence analysts of all disciplines are required to have a broad variety of skills as well as at least one area of deep subject matter expertise.
+An ideal cyber threat intelligence analyst:
+•	Writes at a postgraduate level.
+•	Has elite technical skills.
+•	Is comfortable engaging with leadership.
+•	Can knock up a briefing in 5 minutes.
+•	Is able focus deeply on complex analytic tasks.
+•	Can seamlessly multitask.
+•	Is able to code and automate workflows.
+Often a corporate intelligence capability is a single individual who needs to do it all.
+
+*Slide Number:* 8
+*Slide Title:* Mapping CTI against the intelligence cycle
+*Summary:* The presenter details the tasks that cyber threat intelligence analysts are expected to perform and maps them against the intelligence cycle.
+*Slide Text:* 
+Intelligence is often just thought of as a product. 
+But what separates intelligence from other types of information or knowledge is that it has been through a process of selection, processing, evaluation, synthesis, analysis, and communication.
+The intelligence analyst is the master of this process. The question is how do we teach these skills.
+Planning and Direction
+•	Gathering requirements
+•	Eliciting feedback
+•	Stakeholder engagement
+•	Metrics
+•	Project management
+Collection
+•	Collection planning
+•	Collection management
+•	Onboarding new sources
+•	OSINT
+•	Writing and tuning rules
+Processing
+•	Managing platforms
+•	Knowledge bases
+•	Automating feeds
+•	Triaging raw intelligence
+•	Evaluating intelligence
+Analysis and Production
+•	Data and log analysis
+•	Writing reports
+•	Information synthesis
+•	Reading, reading, reading
+•	Producing data products
+Dissemination
+•	Engaging with leadership
+•	Briefing intelligence
+•	Managing communities
+•	Establishing and maintaining comms channels
+
+*Slide Number:* 9
+*Slide Title:* Where do we learn CTI skills?
+*Summary:* Highlights that cyber skills often come from tertiary education while intelligence skills are more likely from government, private courses, or on the job training.
+*Slide Text:* 
+Cyber Skills
+•	Most CTI analysts will have a strong technical background (Cyber, IT or Computer Science) from tertiary education. Many will have experience in other cyber roles.
+Intelligence Skills
+•	Military and intelligence agencies
+•	Public and private courses
+•	On-the-job training
+
+*Slide Number:* 10
+*Slide Title:* Option 1: recruit from government
+*Summary:* Examines the pros and cons of recruiting CTI analysts trained by government.
+*Slide Text:* 
+Pros:
+•	Government intelligence analysts will have been trained in intelligence as a discipline.
+•	They may have existing target or technical knowledge.
+•	Often they have worked a range of targets making them adaptable
+Cons:
+•	They may still require further technical training.
+•	They may not have a solid background in broader corporate cyber operations.
+•	Government analysts will need to adapt to a corporate culture.
+•	Must adjust to a different mission.
+In a larger CTI team, having a mix of intelligence analysts from both a technical cyber background and a government intelligence background is ideal. However, few corporate CTI teams operate at a scale where they have more than one or two analysts.
+
+*Slide Number:* 11
+*Slide Title:* Option 2: training courses
+*Summary:* Examines the pros and cons of using training courses to develop analysts.
+*Slide Text:* 
+University pros:
+•	Universities offer degrees in intelligence.
+•	These courses focus on the core competences required to manage an intelligence capability.
+University cons:
+•	These post graduate courses start at 1 year of part time study.
+•	They are expensive.
+•	They are more suited to analysts moving into management.
+•	Focussed on theory over practical skills.
+Private course pros:
+•	There are a range of private providers who offer CTI training.
+•	Some of these courses include modules for skills like critical thinking, recognising, bias etc
+Private course cons:
+•	They can be very expensive.
+•	There is generally a focus on cyber skills rather than broader intelligence skills.
+•	The one intelligence course in the VET training framework is not fit for purpose for CTI.
+
+*Slide Number:* 12
+*Slide Title:* No Title
+*Summary:* This slide shows the units on for Masters of Intelligence training offered by Charles Sturt University and Macquarie University.
+*Slide Text:* [nil]
+
+*Slide Number:* 13
+*Slide Title:* DEF40217 - Certificate IV in Intelligence Operations
+*Summary:* This slide shows the core competencies for the nationally recognised training qualification DEF40217 Certificate IV in Intelligence Operations. The presenter highlights that it isn’t suitable for cyber threat intelligence and is outdated for intelligence training more broadly.
+*Slide Text:* [nil]
+
+*Slide Number:* 14
+*Slide Title:* Option 3: on-the-job training
+*Summary:* Highlights the pros and cons of on-the-job-training for CTI analysts.
+*Slide Text:* 
+Pros:
+•	Training can be tailored to the capabilities of the analysts in the team.
+•	Training can be delivered at a convenient time and pace.
+•	Training can be aligned with uplift and work activities in the team.
+Cons:
+•	Someone needs to develop and deliver the training.
+•	Generally, this falls to a senior member of the team, who may not have the time to spare.
+•	It requires an intelligence function at the scale where developing training in-house is worthwhile
+Even senior analysts within CTI may not necessarily have the breadth of intelligence exposure to teach the general intelligence skills and processes, because most CTI capabilities don’t operate on the scale of government intelligence agencies.
+
+*Slide Number:* 15
+*Slide Title:* On-the-job training at ANZ
+*Summary:* Presents the modules that were delivered by the presenter to his team while Product Owner Cyber Threat Intelligence at ANZ Bank.
+*Slide Text:* 
+When examining what was needed for intelligence training within the CTI team at ANZ, it was recognised that the team had exceptional technical skills but had not been exposed to broader intelligence practices.
+1.	What is intelligence?
+2.	The Intelligence Cycle
+3.	Intelligence Requirements
+4.	Admiralty Code and Words of Estimative Probability
+5.	Data, Information, Knowledge and Wisdom
+6.	What is intelligence?
+7.	The Intelligence Cycle
+8.	Intelligence Requirements
+9.	Admiralty Code and Words of Estimative Probability
+10.	Data, Information, Knowledge and Wisdom
+These ten modules were delivered over the course of a year, one per month, and were generally very well received. However, there is a need for more training, and it was a challenge to continually develop and deliver training while managing a team. Ultimately, it’s unsustainable
+
+*Slide Number:* 16
+*Slide Title:* What I’d like for intelligence analyst training
+*Summary:* Is the presenter’s wish list for a comprehensive intelligence training program. This curriculum focusses on core intelligence skills rather than the domain skills required for cyber threat intelligence.
+*Slide Text:* 
+Introduction to intelligence
+•	What is intelligence
+•	Types of intelligence
+•	Professions in intelligence 
+Introduction  to the Intelligence Cycle
+•	Intelligence as a process
+•	Planning and direction (requirements)
+•	Collection
+•	Processing
+•	Analysis and production
+•	Dissemination
+•	Feedback and Evaluation
+Conceptual foundations of intelligence analysis
+•	Bias & Logic
+•	Intelligence failures
+•	Data, information, knowledge and wisdom
+•	WWWWHW&W
+•	Introduction to ontology
+The target
+•	Target discovery
+•	Target development
+•	Turning intelligence into target knowledge
+•	Empathy – understanding your target’s perspective
+•	Cultural considerations
+Ethics and intelligence
+•	Privacy
+•	Proportionality
+•	Legal compliance
+•	Managing sensitive data
+Collection management
+•	Collection management matrix
+•	Collection operations planning
+•	Collection operations management
+•	Managing OSINT activities
+•	Onboarding collection sources
+•	Collection metrics
+Processing intelligence
+•	Evaluating source reliability
+•	Evaluation information quality
+•	Structuring unstructured information
+•	Developing intelligence ontologies
+•	Processing intelligences using AI
+Analytic technique
+•	Induction and deduction
+•	Analysis using DIKW
+•	Aggregating data using basic statistical methods
+•	Temporal analysis 
+•	Network analysis
+•	Geospatial analysis
+•	Progressing from platform to tool to scripts
+•	Structured analytic techniques
+•	Applying data science and AI for intelligence analysis
+•	Python for intelligence analysis
+Report writing
+•	Using words of estimative probability
+•	Analyst comments and assessments
+•	Information reports
+•	Intelligence reports
+•	Intelligences assessments 
+Dissemination
+•	Briefing intelligence
+•	Understanding your audience
+•	Tailored intelligence reporting
+Managing Intelligence
+•	Stakeholder engagement
+•	Requirements and feedback
+•	Managing intelligence analysts
+•	How to say no to senior managers
+•	Applying metrics to an intelligence capability
+•	Full-cycle intelligence management
+
+*Slide Number:* 17
+*Slide Title:* Some practical considerations
+*Summary:* The presenter anticipates some of the critiques of such a comprehensive training program for intelligence analysts.
+*Slide Text:* 
+That’s a lot of training!
+•	Yes, but it can take a decade or more to build a senior intelligence analyst.
+Who could deliver this?
+•	Government?
+•	Private enterprise?
+•	Loose coalition of desperate intelligence managers?
+Is there demand?
+•	This is a lot of the reason why I put this presentation together:
+•	Do analysts feel they need this type of training? 
+
+*Slide Number:* 18
+*Slide Title:* Why do I think there is a need?
+*Summary:* The presenter provides a justification for his comprehensive training curriculum.
+*Slide Text:* 
+1. CTI in corporate cyber security functions has rapidly changed from simply ingesting and matching IOC strings to complex analysis done in-house, narrative intelligence reporting, long-term assessments, and advising senior executives on strategy and procurement.
+2. Intelligence functions within companies therefore require more active management grounded in a comprehensive understanding of how intelligence works.
+3. The skills and experience to manage a full intelligence capability are rare in a single individual. Even intelligence agencies rely on hundreds of specialised staff each fulfilling a small part of the intelligence cycle.
+4. Corporate CTI teams will necessarily operate at a small scale. While vendors can assist (and some are truly excellent), the CTI team must manage the full capability and contextualise intelligence to the organisation’s requirements.
+CTI analysts trained in broad intelligence practices will better meet the needs of their organisation
+
+*Slide Number:* 19
+*Slide Title:* Conclusion
+*Summary:* Conclusion slide for the presentation.
+*Slide Text:* 
+We’ve gone through the skills that intelligence analysts need
+We’ve examined existing training options
+We’ve considered what a curriculum could look like
+I’ve had a go at trying to convince you why it’s needed
+Any questions or comments?
+
+*Slide Number:* 20
+*Slide Title:* Thank You!
+*Summary:* Closing slide
+*Slide Text:*  [nil]

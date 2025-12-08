@@ -1,0 +1,21 @@
+Title: 
+Subtitle: 
+Date: DD Month 2025
+Substack URL: 
+Image:  ./assets/img/systems_of_value_blog/
+
+
+
+<a href="">This link</a>
+
+<p class="italic-quote"><i>We should expect the same adherence to core values from non-human agents as we do from people.</i></p>
+ 
+<figure>
+<img src="./assets/img/path-to-image.jpg" alt="Description">
+<figcaption>This is the caption text</figcaption>
+</figure>
+
+
+<figure>
+<img src="./assets/img/systems_of_value_blog/archetypes/.png" alt="Description">
+</figure>

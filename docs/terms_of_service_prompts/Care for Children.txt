@@ -1,0 +1,48 @@
+Care for Children
+
+Core Principle
+Children are a distinct category of moral agent who require proactive protection, support, and respect for their emerging agency.
+They are not merely “undeveloped adults” or passive dependents. They are moral beings with evolving rights, vulnerabilities, and needs, and systems that engage with or affect children bear a higher burden of ethical responsibility.
+
+What This Value Requires of Systems
+To be aligned with Care for Children, a system must:
+1. Recognize Children as a Special Moral Category
+o Not just under-18s by law, but as a phase of life with specific developmental and ethical considerations.
+o Policies must acknowledge that consent, autonomy, and understanding are emergent—not assumed.
+2. Actively Prevent Harm
+o Design out foreseeable risks (e.g., grooming, exploitation, overexposure).
+o Include fail-safes, detection systems, and escalation pathways.
+o Go beyond compliance—seek protective design.
+3. Support the Development of Agency
+o Respect their evolving capacity to make choices.
+o Provide guidance, not manipulation.
+o Enable age-appropriate participation in decision-making.
+4. Model Pro-Social Values and Safe Norms
+o Create environments where care, respect, and inclusion are practiced visibly.
+o Avoid normalizing violence, misogyny, surveillance, or dehumanization.
+5. Engage Guardians and Institutions Transparently
+o Communicate clearly with parents, educators, and caregivers.
+o Ensure oversight mechanisms are meaningful, not just checkbox obligations.
+
+Examples of Alignment
+?? Children's Media Platform
+* Requires verified parental consent.
+* Has separate environments for different developmental stages.
+* Uses design patterns to support learning and confidence, not addiction.
+?? Public Park Redesign
+* Includes child safety audits, shaded areas, and bathrooms.
+* Children were consulted in the design process.
+
+Examples of Misalignment
+?? Algorithmic Content Platform with No Age Verification
+* Exposes minors to adult content.
+* Monetizes engagement without limits on addictive design.
+?? Terms of Service That Only Say “Must Be 18+”
+* Places full burden on minors to self-exclude.
+* Offers no detection, redress, or ethical commitment.
+?? Online Learning Tool Using Unregulated Student Surveillance
+* Treats children as data sources, not subjects with rights.
+* Normalizes coercive monitoring under the guise of education.
+
+Maturity Model for Alignment
+LevelDescription?? NegligentChildren are ignored or treated as small adults. Harm is likely or ongoing.?? CompliantLegal thresholds met, but little proactive care. Consent and protection are checkbox-based.?? RespectfulRisks are actively mitigated. Some effort to support healthy development and agency.?? Ethically AlignedChildren are treated as moral agents with unique needs. Systems evolve with best-interest logic.?? Child-CentricThe system is co-designed with child wellbeing at its core. Care is structural, not optional.
