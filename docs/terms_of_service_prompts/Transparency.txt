@@ -1,44 +1,0 @@
-Transparency
-
-Core Principle
-Transparency is the foundation of trust and accountability. Systems must clearly reveal how they operate, make decisions, and affect those within or subject to them.
-Transparency is not just about access to information; it is about making systems legible, navigable, and open to scrutiny. People must be able to understand what is happening, why it is happening, and what options they have to respond or challenge it.
-
-What This Value Requires of Systems
-1. Clarity of Process
-o Systems must explain their processes in clear, accessible language.
-o Pathways for engagement, recourse, and change must be visible and understandable.
-2. Decision-Making Visibility
-o Who made what decision, when, and based on what criteria should be traceable.
-o Systems should disclose the logic of both human and automated decisions.
-3. Disclosure of Power Dynamics
-o Systems must reveal how power operates, including structural biases or limitations.
-o Users should know what data is being used and for what purpose.
-4. Accessible Documentation
-o Policies, procedures, and updates must be publicly available and easy to interpret.
-o Historical changes to terms, conditions, or structures should be tracked.
-5. Right to Explanation
-o Individuals impacted by decisions must be able to request and receive meaningful explanations.
-o Transparency should be proactive, not only reactive to complaints.
-
-Examples of Alignment
-?? Civic Data Platform
-* Publishes data models, decision logs, and governance structures.
-* Users can see how their input affects outcomes.
-?? AI System with Publicly Auditable Algorithms
-* Explains how outputs are generated.
-* Provides meaningful summaries of training data, logic, and known limitations.
-
-Examples of Misalignment
-?? Opaque Bureaucratic System
-* Rules and expectations are not documented or discoverable.
-* Individuals are left to guess the logic behind decisions.
-?? Terms of Service That Change Without Notice
-* Users are held to rules they were never informed of.
-* No version history or rationale is shared.
-?? Automated System That Offers No Explanation for Denial
-* Decisions are final, with no recourse or reasoning provided.
-* Requests for clarification are deflected or ignored.
-
-Maturity Model for Alignment
-LevelDescription?? NegligentSystem hides or withholds operational logic. Users are confused or misled.?? CompliantInformation is technically available but buried in jargon or difficult formats.?? RespectfulProcesses and decisions are clearly documented and discoverable.?? Ethically AlignedSystem actively communicates decision logic and process design in user-facing ways.?? Transparency-CentricTransparency is embedded structurally. Users can audit, challenge, and co-create system understanding.

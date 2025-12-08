@@ -1,6 +1,0 @@
-Standard Maturity Model for Ethical Alignment
-LevelDescirption?? NegligentThe system fails to recognize the value or creates harm through disregard or denial.?? CompliantThe system meets basic legal or formal requirements, but lacks deeper ethical intentionality.?? RespectfulThe system acknowledges the value and avoids harm, but mostly through static policies or minimal implementation.?? Ethically AlignedThe system actively supports the value through dynamic practices, feedback loops, and structural consideration.?? [Value]-CentricThe system is shaped around this value as a core design principle. Its architecture, culture, and evolution are guided by it.
-Define a Set of Core Values
-These should be moral primitives—not policy positions, but deep orientation points. For example:
-ValueBrief DescriptionAgencyPeople should be free to make informed, uncoerced choices.ConsentParticipation must be voluntary, specific, and revocable.Care for ChildrenChildren have distinct vulnerabilities and rights that require proactive protection.TransparencySystems must reveal how they operate and how decisions are made.AccountabilityActors (including systems) must be answerable for harms or misalignments.PluralismSystems should support diverse identities, values, and life paths.
-

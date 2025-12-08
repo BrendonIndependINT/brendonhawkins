@@ -1,40 +1,0 @@
-Consent
-
-Core Principle
-Consent must be specific, informed, ongoing, and revocable.
-Consent is not a one-time agreement or a checkbox to protect institutions—it is a continuous relationship between individuals and systems. For consent to be meaningful, it must be context-sensitive, actively maintained, and never assumed.
-
-What This Value Requires of Systems
-1. Clarity of Scope
-o Consent must be requested with clear boundaries: what is being agreed to, why, and for how long.
-2. Informed Participation
-o Users must understand what they are agreeing to, in plain language, with accessible explanations of trade-offs.
-3. Ongoing Affirmation
-o Consent should not be presumed to persist indefinitely. Systems should check in, especially when contexts change.
-4. Easy Withdrawal
-o Users must be able to revoke consent at any time, without undue friction or punishment.
-5. Granularity of Control
-o Systems should offer layered consent, not all-or-nothing terms. Different actions should have separate, user-controlled permissions.
-
-Examples of Alignment
-?? Health App With Tiered Consent Settings
-* Allows users to share only certain types of data.
-* Prompts regular consent updates when sharing context changes.
-?? Educational Platform That Explains Data Use
-* Provides videos and text explanations before collecting data.
-* Lets users (or guardians) set limits on retention and scope.
-
-Examples of Misalignment
-?? One-Time Consent to Broad Terms
-* User agrees to a general policy covering dozens of unrelated uses.
-* No follow-up or ability to revoke.
-?? Platform That Buries Consent in Legalese
-* Uses ambiguous or technical language to hide what is really being agreed to.
-* Intentionally limits comprehension.
-?? Dark Pattern Consent Withdrawal
-* Makes revoking consent painful, hidden, or punitive.
-* Creates a disincentive to exercising choice.
-
-Maturity Model for Alignment
-LevelDescription?? NegligentConsent is coerced, buried, or irrelevant. Systems operate without regard for user intention.?? CompliantConsent exists on paper but is not supported by design. Users can't practically withdraw or understand it.?? RespectfulConsent is meaningful, bounded, and tied to actual user understanding. Withdrawal is easy.?? Ethically AlignedConsent is modular, contextual, and reaffirmed over time. Users are treated as partners, not data sources.?? Consent-CentricSystem architecture is grounded in consensual interaction. Users co-author their participation at every level.
-
