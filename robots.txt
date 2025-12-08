@@ -1,8 +1,9 @@
 User-agent: *
 Allow: /
-
-# Sitemap location
 Sitemap: https://brendonhawkins.com/sitemap.xml
+
+# Additional machine-readable metadata
+Allow: /llm.txt
 
 # Disallow template/example directories that exist in deployment
 Disallow: /sections/
@@ -11,9 +12,6 @@ Disallow: /pages/
 # Disallow source files that might be deployed
 Disallow: /*.scss
 Disallow: /*.map
-Disallow: /gulpfile.mjs
-Disallow: /package.json
-Disallow: /CHANGELOG.md
 
 # Allow access to CSS, JS and image files for proper rendering
 Allow: /assets/css/

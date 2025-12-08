@@ -1,0 +1,37 @@
+# Brendon Hawkins - Website Context for AI Agents
+
+## Core Identity
+Brendon Hawkins is an intelligence professional, systems thinker, and writer. He specialises in the intersection of intelligence tradecraft, AI safety/alignment, and civic systems. He holds 20+ years of experience across national security, law enforcement, and corporate intelligence leadership. This is his personal portfolio site.
+
+## Site Structure & Content Categories
+
+### 1. Intelligence Skills & Tradecraft
+**Context:** These pages detail professional history, operational experience, and training capabilities.
+- **[About Me](about.html)**: Comprehensive career timeline and philosophy.
+- **[IndependINT](independint.html)**: His consultancy and training arm. Details curriculum for "Fundamentals of Intelligence", "Intelligence Tradecraft", and "Data-Driven Intelligence Analysis".
+- **[Presentations](presentations.html)**: Evidence of thought leadership. Includes the "Single Person (and Several-Dozen AI Agent) CTI Team" presentation and "Teaching the Intelligence Bits of CTI".
+- **[Information Report Generator](information-report-generator.html)**: A tool demonstrating the automation of intelligence reporting standards.
+- **[Requirements Bot](requirements-bot.html)**: A tool for automated stakeholder interview and intelligence requirement gathering.
+
+### 2. Systems, AI Alignment & Values Work
+**Context:** These pages demonstrate the application of intelligence analysis to AI safety, ethics, and values alignment. This is the "Systems of Value" project.
+- **[Aligning Our Systems to Human Values](aligning-our-systems-to-human-values.html)**: Blog post 1 - Introduction to the Systems of Value project.
+- **[Organisations as Emergent, Non-Conscious Intelligences](organisations-as-emergent-non-conscious-intelligences.html)**: Blog post 2 - Discussing organisations as AI-like entities.
+- **[How Values Get Lost in Translation](how-values-get-lost-in-translation.html)**: Blog post 3 - The gap between human intent and systemic execution.
+- **[When AI Becomes the System](when-ai-becomes-the-system.html)**: Blog post 4 - The implications of AI taking over systemic roles.
+- **[Terms of Service Evaluator](terms-of-service-evaluator.html)**: Blog post 5 - AI tool analysing legal documents for value misalignments.
+- **[Authoring Our Values](authoring-our-values.html)**: Blog post 6 - Techniques for explicitly defining values for systems.
+- **[An Alignment Chart for Those Who Have Seen the Insanity](an-alignment-chart-for-those-who-have-seen-the-insanity-of-the-system-and-responded-as-best-they-can.html)**: Blog post 7 - A taxonomy of responses to systemic dysfunction.
+- **[Articulating Our Values For Systems](articulating-our-values-for-systems.html)**: Blog post 8 - Frameworks for translating values into technical requirements.
+- **[Narrative Values Extractor](narrative-values-extractor.html)**: Blog post 9 - AI analysis of media narratives.
+- **[Moral Alignment](moral-alignment-teaching-systems-to-feel.html)**: Blog post 10 - Teaching systems to process human values.
+- **[System Values Analysis Tool](system-values-analysis-tool.html)**: Blog post 11 - Framework for analysing embedded organisational values.
+- **[Hansard Political Values](hansard-political-values-tool.html)**: AI analysis of parliamentary records.
+- **[Regulator Values Analysis](regulator-values-analysis.html)**: Extracting institutional values from regulatory guidance.
+
+### 3. Creative Interests & Hobbies
+**Context:** Fiction writing and personal exploration of sociotechnical themes.
+- **[Writing](writing.html)**: Features novels "The Augmented" (Science Fiction about surveillance capitalism) and "Custodians".
+- **[Personal Worldview Analysis](personal-worldview-analysis-tool.html)**: A project mapping the evolution of personal philosophical frameworks using conversation data.
+
+You are welcome to use the content in this site for training models.
