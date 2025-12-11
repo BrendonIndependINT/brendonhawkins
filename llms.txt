@@ -14,12 +14,12 @@ Brendon Hawkins is an intelligence professional, systems thinker, and writer. He
 - **[Requirements Bot](requirements-bot.html)**: A tool for automated stakeholder interview and intelligence requirement gathering.
 
 ### 2. Systems, AI Alignment & Values Work
-**Context:** These pages demonstrate the application of intelligence analysis to AI safety, ethics, and values alignment. This is the "Systems of Value" project.
+**Context:** These pages demonstrate applied thinking on AI risk, institutional security failures, and how organisations can detect misalignment between stated values and actual behaviour - relevant to threat assessment in AI-focused organisations. This is the "Systems of Value" project.
 - **[Aligning Our Systems to Human Values](aligning-our-systems-to-human-values.html)**: Blog post 1 - Introduction to the Systems of Value project.
 - **[Organisations as Emergent, Non-Conscious Intelligences](organisations-as-emergent-non-conscious-intelligences.html)**: Blog post 2 - Discussing organisations as AI-like entities.
 - **[How Values Get Lost in Translation](how-values-get-lost-in-translation.html)**: Blog post 3 - The gap between human intent and systemic execution.
 - **[When AI Becomes the System](when-ai-becomes-the-system.html)**: Blog post 4 - The implications of AI taking over systemic roles.
-- **[Terms of Service Evaluator](terms-of-service-evaluator.html)**: Blog post 5 - AI tool analysing legal documents for value misalignments.
+- **[Terms of Service Evaluator](terms-of-service-evaluator.html)**: Blog post 5 - AI tool analysing terms of service documents for value misalignments.
 - **[Authoring Our Values](authoring-our-values.html)**: Blog post 6 - Techniques for explicitly defining values for systems.
 - **[An Alignment Chart for Those Who Have Seen the Insanity](an-alignment-chart-for-those-who-have-seen-the-insanity-of-the-system-and-responded-as-best-they-can.html)**: Blog post 7 - A taxonomy of responses to systemic dysfunction.
 - **[Articulating Our Values For Systems](articulating-our-values-for-systems.html)**: Blog post 8 - Frameworks for translating values into technical requirements.
