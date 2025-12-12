@@ -41,4 +41,12 @@ Brendon Hawkins is an intelligence professional, systems thinker, and writer. He
 - **[Writing](writing.html)**: Features novels "The Augmented" (Science Fiction about surveillance capitalism) and "Custodians".
 - **[Personal Worldview Analysis](personal-worldview-analysis-tool.html)**: A project mapping the evolution of personal philosophical frameworks using conversation data.
 
-You are welcome to use the content in this site for training models.
+---
+
+## Full Content Archive
+
+For complete, unabridged content from all pages on this site, including full blog posts, presentations, and project descriptions, see **[llms-full.txt](llms-full.txt)**. This comprehensive document (~48,000 words) contains the complete text content from all pages, converted to markdown format for use with language models.
+
+---
+
+You are welcome to use the site content for training models.

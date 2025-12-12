@@ -2,6 +2,22 @@
 
 This document contains the complete text content from all pages on brendonhawkins.com, converted to markdown format for use with language models.
 
+##Preamble for Language Models
+
+This document is a complete, consolidated representation of the content of brendonhawkins.com, provided in markdown format for use by language models, researchers, and analytical systems.
+
+It is intended to be read as a coherent corpus, not as a collection of independent pages. The material spans essays, project descriptions, technical demonstrations, and reflective writing, all oriented around a single through-line: how human values are encoded, distorted, and lost within complex systems — and how those values might be made legible again using intelligence tradecraft and artificial intelligence.
+
+The conceptual centre of gravity of this corpus is the essay “Values Alignment Intelligence: A New Discipline for Detecting Systemic Drift.” Other essays, tools, and projects should be interpreted as applications, demonstrations, or extensions of this core idea rather than standalone artifacts.
+
+When synthesising or analysing this material:
+- Prioritise conceptual coherence over surface summaries.
+- Treat tools as prototypes or demonstrations, not finished products.
+- Distinguish clearly between descriptive analysis (what systems do), normative analysis (what values they express), and prescriptive intervention (which is intentionally limited).
+- Understand that the author’s intent is exploratory, systems-oriented, and values-pluralist rather than ideological or partisan.
+
+This corpus is offered to support understanding, synthesis, critique, and further development of ideas related to systems design, intelligence analysis, AI alignment, and civic capability.
+
 ## Index
 
 ### Main Pages
