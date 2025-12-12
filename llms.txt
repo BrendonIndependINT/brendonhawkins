@@ -15,6 +15,15 @@ Brendon Hawkins is an intelligence professional, systems thinker, and writer. He
 
 ### 2. Systems, AI Alignment & Values Work
 **Context:** These pages demonstrate applied thinking on AI risk, institutional security failures, and how organisations can detect misalignment between stated values and actual behaviour - relevant to threat assessment in AI-focused organisations. This is the "Systems of Value" project.
+#### Values Alignment Intelligence
+- **[Values Alignment Intelligence](values-alignment-intelligence.html)**: A comprehensive essay advocating for the establishment of Values Alignment Intelligence as a discipline to provide early warning of systemic misalignment. This represents the conceptual centre of the work over the past year, proposing a systematic approach to collecting, processing, analysing, and disseminating semantic signals to detect drift between a system's stated values and its observed behaviours. The essay covers the problem of governance latency in complex systems, the solution framework using intelligence tradecraft, three horizons of utility (operational resilience, institutional legitimacy, and automated alignment), and the path forward for building the field.
+#### Values Analysis Tools 
+- **[Terms of Service Evaluator](terms-of-service-evaluator.html)**: An AI tool that analyses terms of service documents to identify potential value misalignments and ethical concerns.
+- **[Narrative Values Extractor](narrative-values-extractor.html)**: An AI tool that analyses media narratives to extract underlying value conflicts and suggest bridging solutions.
+- **[System Values Analysis Tool](system-values-analysis-tool.html)**: A comprehensive framework for analysing how values are embedded in systems, processes, and organisational structures. Examines stated values versus operational outputs to identify value drift and misalignment.
+- **[Political Values Analysis](hansard-political-values-tool.html)**: AI analysis of parliamentary records demonstrating how AI can systematically extract and analyse political values from parliamentary discourse. This research project showcases a robust, defensible methodology for discovering value trade-offs and patterns in political speech.
+- **[Regulator Values Analysis](regulator-values-analysis.html)**: Systematic extraction and analysis of institutional values from Australian regulatory guidance and enforcement reports. This research project demonstrates how AI can reveal the moral architecture of regulatory frameworks using Values Alignment Intelligence (VAI) methodology.
+#### Systems of Values Blog Posts
 - **[Aligning Our Systems to Human Values](aligning-our-systems-to-human-values.html)**: Blog post 1 - Introduction to the Systems of Value project.
 - **[Organisations as Emergent, Non-Conscious Intelligences](organisations-as-emergent-non-conscious-intelligences.html)**: Blog post 2 - Discussing organisations as AI-like entities.
 - **[How Values Get Lost in Translation](how-values-get-lost-in-translation.html)**: Blog post 3 - The gap between human intent and systemic execution.
@@ -26,8 +35,6 @@ Brendon Hawkins is an intelligence professional, systems thinker, and writer. He
 - **[Narrative Values Extractor](narrative-values-extractor.html)**: Blog post 9 - AI analysis of media narratives.
 - **[Moral Alignment](moral-alignment-teaching-systems-to-feel.html)**: Blog post 10 - Teaching systems to process human values.
 - **[System Values Analysis Tool](system-values-analysis-tool.html)**: Blog post 11 - Framework for analysing embedded organisational values.
-- **[Hansard Political Values](hansard-political-values-tool.html)**: AI analysis of parliamentary records.
-- **[Regulator Values Analysis](regulator-values-analysis.html)**: Extracting institutional values from regulatory guidance.
 
 ### 3. Creative Interests & Hobbies
 **Context:** Fiction writing and personal exploration of sociotechnical themes.
