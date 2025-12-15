@@ -150,34 +150,6 @@ In recent years, my interests have broadened. I realised that the tools of intel
 
 My work now lives at the intersection of intelligence, ethics, AI, and systems design. I'm focused on building tools, frameworks, and narratives that help people navigate complexity with greater clarity and care.
 
-#### My Philosophy
-
-The core beliefs that shape how I work and think about systems, intelligence, and change.
-
-**Systems-Aware Intelligence**
-
-Understanding complexity through analytical rigour and broader perspective. Moving beyond traditional intelligence to systems thinking.
-
-**Values-First Technology**
-
-Embedding human values into systems rather than just optimising for efficiency. Technology should reflect human values, not replace human judgment.
-
-**Intersection Thinking**
-
-The most important insights come from bridging separate domains. Intelligence, systems design, and narrative converge to create new possibilities.
-
-**Narrative as Design**
-
-Stories shape systems - storytelling is system design. How we tell stories about systems influences how those systems operate.
-
-**Pragmatic Idealism**
-
-Working within existing structures to create meaningful change. A "quiet reformer" approach that believes systems can be better through patient engagement.
-
-**Intelligence as Civic Capability**
-
-Analysis skills as tools for navigating societal complexity. Intelligence extends beyond professional domains into civic engagement and governance.
-
 #### This Site
 
 This website serves as a central point for these diverse activities. It's a place to share insights, showcase projects, and connect with others interested in similar ideas.
