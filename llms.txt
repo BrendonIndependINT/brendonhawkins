@@ -7,7 +7,7 @@ Brendon Hawkins is an intelligence professional, systems thinker, and writer. He
 
 ### 1. Intelligence Skills & Tradecraft
 **Context:** These pages detail professional history, operational experience, and training capabilities.
-- **[About Me](about.html)**: Comprehensive career timeline and philosophy.
+- **[About Me](about.html)**: Professional background and philosophy.
 - **[IndependINT](independint.html)**: His consultancy and training arm. Details curriculum for "Fundamentals of Intelligence", "Intelligence Tradecraft", and "Data-Driven Intelligence Analysis".
 - **[Presentations](presentations.html)**: Evidence of thought leadership. Includes the "Single Person (and Several-Dozen AI Agent) CTI Team" presentation and "Teaching the Intelligence Bits of CTI".
 - **[Information Report Generator](information-report-generator.html)**: A tool demonstrating the automation of intelligence reporting standards.
